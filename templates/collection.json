@@ -1,0 +1,192 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "liquid_LXpPpG": {
+      "type": "liquid",
+      "settings": {
+        "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BC-SS25-Website-mega-markdowns-collection-desktop-1.gif?v=1743428891\" %}\n{% assign link_url = \"https://www.brandcorner.com/pages/mega-markdowns\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": false,
+        "visibility": "hidden md:block"
+      }
+    },
+    "liquid_jxWByh": {
+      "type": "liquid",
+      "settings": {
+        "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BC-SS25-Website-mega-markdowns-collection-mobile-1.gif?v=1743428891\" %}\n{% assign link_url = \"https://www.brandcorner.com/pages/mega-markdown\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": false,
+        "visibility": "md:hidden"
+      }
+    },
+    "text_kNzE4N": {
+      "type": "text",
+      "settings": {
+        "heading": "{{ collection.title }}",
+        "content": "",
+        "button_label": "",
+        "button_url": "/",
+        "spacing_top": 20,
+        "spacing_bottom": 20,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "text-center justify-center",
+        "visibility": ""
+      }
+    },
+    "collection_banner_tieKpy": {
+      "type": "collection__banner",
+      "disabled": true,
+      "custom_css": [
+        ".h-full {max-height: 90px;}"
+      ],
+      "settings": {
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "color__text",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[250px] md:min-h-[350px]",
+        "layout_y_alignment": "items-start",
+        "layout_x_alignment": "justify-center text-center",
+        "visibility": "md:hidden",
+        "enable_description": false,
+        "enable_image": false
+      }
+    },
+    "grid": {
+      "type": "collection__main",
+      "blocks": {
+        "e697d97e-8310-4ca0-adeb-54d7222e15c1": {
+          "type": "newsletter",
+          "settings": {
+            "image_background": "shopify://shop_images/BC-SS25-Website-PRODUCT-CARD_62469793-6733-474a-8cd3-8320baf9fbe0.jpg",
+            "heading": "",
+            "content": "<p>Sign up for exclusive discounts:</p>",
+            "button_label": "Subscribe",
+            "disclaimer": "",
+            "success": "<p>Success! You’ve been subscribed.</p>",
+            "index": 7,
+            "background_color_scheme": "color__bg-neutral color__text",
+            "column_size": "col-span-1"
+          }
+        },
+        "0f716542-eff1-4b59-a9c9-c47955447221": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "image_background": "shopify://shop_images/6-10-23-emails-bc-4.jpg",
+            "url": "",
+            "heading": "",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.</p>",
+            "button_label": "Button",
+            "index": 3,
+            "background_color_scheme": "color__bg-overlay-1 color__text",
+            "column_size": "col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "e697d97e-8310-4ca0-adeb-54d7222e15c1",
+        "0f716542-eff1-4b59-a9c9-c47955447221"
+      ],
+      "custom_css": [
+        "@media all and (max-width: 960px) {/* put your css styles in here */ .flair-badge > div {white-space: break-spaces !important; overflow: hidden; font-size: 11px; line-height: 20px; flex: 1 2; z-index: 2; padding-left: 1.25em; padding-right: 1.25em; text-align: center; margin: -20px 0px 0px 0px; }}"
+      ],
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "row_size_desktop": "md:grid-cols-4",
+        "row_size_mobile": "grid-cols-2",
+        "showAddtoCart": true,
+        "enable_sort": false,
+        "enable_filter": false,
+        "products_per_page": 24
+      }
+    },
+    "recent": {
+      "type": "recent-slider",
+      "disabled": true,
+      "settings": {
+        "heading": "Recently viewed",
+        "content": "",
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--t-width",
+        "visibility": ""
+      }
+    },
+    "17113796036f3c613e": {
+      "type": "apps",
+      "blocks": {
+        "flair_product_labels_badges_banners_PzXGiH": {
+          "type": "shopify://apps/flair/blocks/banners/51d5ae10-f90f-4540-9ec6-f09f14107bf4",
+          "settings": {
+            "heading": "Flair banners",
+            "layout": "Product Card Bottom",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "flair_product_labels_badges_banners_PzXGiH"
+      ],
+      "settings": {
+        "spacing_top": 100,
+        "spacing_bottom": 100,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": false
+      }
+    },
+    "banner": {
+      "type": "collection__banner",
+      "settings": {
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "color__text",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[250px] md:min-h-[350px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-center text-center",
+        "visibility": "hidden md:block",
+        "enable_description": true,
+        "enable_image": false
+      }
+    }
+  },
+  "order": [
+    "liquid_LXpPpG",
+    "liquid_jxWByh",
+    "text_kNzE4N",
+    "collection_banner_tieKpy",
+    "grid",
+    "recent",
+    "17113796036f3c613e",
+    "banner"
+  ]
+}

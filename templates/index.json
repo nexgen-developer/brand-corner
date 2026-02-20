@@ -1,0 +1,799 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_dUjbh4": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_wVe9ck": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image_background_desktop": "shopify://shop_images/13-12-24-perfect-for-gifting-bc-desktop.jpg",
+            "image_background_mobile": "shopify://shop_images/13-12-24-perfect-for-gifting-bc-mob.jpg",
+            "show_entire_image": true,
+            "enable_lazy_loading": false,
+            "show_video_background_mobile": false,
+            "heading": "",
+            "content": "",
+            "button_color": "btn",
+            "button_label": "",
+            "button_url": "shopify://collections/new-in",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "",
+            "secondary_button_url": "shopify://collections/new-in"
+          }
+        },
+        "slide_BazdwT": {
+          "type": "slide",
+          "settings": {
+            "image_background_desktop": "shopify://shop_images/BC-PRE-BF-W4-DESKTOP.jpg",
+            "image_background_mobile": "shopify://shop_images/BC-PRE-BF-W4-MOBILE.jpg",
+            "show_entire_image": true,
+            "enable_lazy_loading": false,
+            "show_video_background_mobile": true,
+            "heading": "",
+            "content": "",
+            "button_color": "btn",
+            "button_label": "",
+            "button_url": "shopify://collections/new-in",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "",
+            "secondary_button_url": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "slide_wVe9ck",
+        "slide_BazdwT"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color__bg-tertiary color__tertiary",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "auto_scroll": true,
+        "auto_scroll_delay": 5
+      }
+    },
+    "liquid_tNWYHN": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "Winter Base",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Winter_Ready_fa097f4e-9b0f-4000-a4cb-ffa5aa7c115a.jpg?v=1767623369\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Winter_Ready_5f9ef152-19a9-439e-b297-9ada6e1e3b3f.jpg?v=1767623369\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_tXgCGA": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "16th Jan (Further Reductions)",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Further_Reduction_5dca0003-f01d-4ee3-82a6-8407ef80ad51.jpg?v=1767700093\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Further_Reduction.jpg?v=1767700096\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_BYzJFf": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "23rd Jan (Last Chance)",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Last_Chance_18869ed0-7a80-4246-9b8a-64bf7c9d9903.jpg?v=1769419564\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Last_Chance_bdd19e97-69a2-4c9e-bc28-b01ef6ae6e49.jpg?v=1769419564\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_AKTULJ": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "30th Jan (Pay Day)",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Pay_Day.jpg?v=1769157415\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Pay_Day.jpg?v=1769157415\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_4GUew7": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "6th Feb (Valentines Underwear)",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Valentines_Mens_Underwear_256c7364-2ada-4fd1-8737-1fc8572fab49.jpg?v=1770301426\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Valentines_Mens_Underwear_a96a7c4a-cbd6-41e3-a98b-2d8bba4044ee.jpg?v=1770301426\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/boxers-briefs\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_3DWeDU": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "13th Feb (Valentines)",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Valentines_Treat_f106270a-a313-4b15-962c-6633c73e1562.jpg?v=1770216461\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Valentines_Treat_1fee2cdc-daf0-4a9f-ad57-a9fbb1ead939.jpg?v=1770216461\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_FfH9NB": {
+      "type": "liquid",
+      "name": "Mystery Box",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Mystery_Box.jpg?v=1769071706\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Mystery_Box.jpg?v=1769071707\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/5-mystery-box\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "content_grid_7YrUrR": {
+      "type": "content-grid",
+      "blocks": {
+        "content_TRqedm": {
+          "type": "content",
+          "name": "Mega Markdowns",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://pages/mega-markdowns",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINK_-_Mega_Markdowns_9a38638b-a2ab-4f81-9e5c-011d269370d8.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_wK6gzT": {
+          "type": "content",
+          "name": "End Of Line Sale",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/end-of-line",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_End_of_Line_Sale_e9beae8f-196e-4700-9879-f8cad941d0fe.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "content_TRqedm",
+        "content_wK6gzT"
+      ],
+      "name": "Quick Links",
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "row_size_desktop": "md:grid-cols-2",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "text-center justify-center flex-col items-center",
+        "visibility": ""
+      }
+    },
+    "liquid_LHXpPw": {
+      "type": "liquid",
+      "name": "New In",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Desktop_New_In_3b392a07-f6a6-477c-805c-4cd830a05c0f.jpg?v=1767618180\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Mobile_New_In_70c02149-f322-497e-9b60-f846dff9d19f.jpg?v=1767617908\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": true,
+        "visibility": ""
+      }
+    },
+    "product_slider_DiqEL6": {
+      "type": "product-slider",
+      "blocks": {
+        "card_CmDUe8": {
+          "type": "card",
+          "disabled": true,
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "Button",
+            "button_url": "/"
+          }
+        }
+      },
+      "block_order": [
+        "card_CmDUe8"
+      ],
+      "custom_css": [
+        "h3 {font-size: 1.175rem;}"
+      ],
+      "name": "Collection",
+      "settings": {
+        "collection": "new-in",
+        "products_count": 20,
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "content_grid_PdfVwt": {
+      "type": "content-grid",
+      "blocks": {
+        "content_XXhcdi": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/mens",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_d29e6cb1-d506-4a7f-87c0-1bf08cfaa312.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_nCAFNJ": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/ladies",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Womens_10f4e6ac-f8f9-4dc7-83c9-ff23339ef602.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_8HNELD": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/kids",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Kids.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": false,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "content_XXhcdi",
+        "content_nCAFNJ",
+        "content_8HNELD"
+      ],
+      "name": "Quick Links",
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "banner_BR8gUK": {
+      "type": "banner",
+      "disabled": true,
+      "custom_css": [
+        ".object-cover {-o-object-fit: cover; object-fit: contain;}"
+      ],
+      "settings": {
+        "url": "shopify://collections/end-of-line",
+        "image_background_desktop": "shopify://shop_images/BC-SS24-Website-_Recovered_-end-of-line-desktop_1707006c-1787-4efd-8067-1b43a3d08ecd.jpg",
+        "image_background_mobile": "shopify://shop_images/BC-SS24-Website-_Recovered_-end-of-line-mob_43c92f61-a107-45b6-b76d-bc9c7220645c.jpg",
+        "show_entire_image": true,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-body color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "padding_top": 0,
+        "padding_bottom": 15
+      }
+    },
+    "banner_zHLe4e": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "url": "shopify://collections/5-and-under",
+        "image_background_desktop": "shopify://shop_images/BC-SS24-Website-_Recovered_-5-and-under-desktop_5928b94f-681d-43bb-8efd-750d69953a17.jpg",
+        "image_background_mobile": "shopify://shop_images/BC-SS24-Website-_Recovered_-5-and-under-mob_798567af-4cbe-4fe8-a3c1-e88b7acf669d.jpg",
+        "show_entire_image": true,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-body color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "padding_top": 0,
+        "padding_bottom": 22
+      }
+    },
+    "logo_list_mqVrDb": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_PLM39B": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Juice.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_6erjEV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Crosshatch.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_8gyMVE": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Dunlop.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_6EDz6i": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/FCUK.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_ttP4nV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/DAC_00ceeac5-fc0f-4560-b8bd-0690da8f6842.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_eBAx9b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Archive.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_AwDqin": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Born_Rich.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_KfAwLm": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Lookus.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_pb9MXG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Loyalty_and_Faith.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_giNnLM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Henleys_Logo_black.psd-9.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "logo_PLM39B",
+        "logo_6erjEV",
+        "logo_8gyMVE",
+        "logo_6EDz6i",
+        "logo_ttP4nV",
+        "logo_eBAx9b",
+        "logo_AwDqin",
+        "logo_KfAwLm",
+        "logo_pb9MXG",
+        "logo_giNnLM"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/",
+        "enablescorll": true,
+        "speed": 20,
+        "spacing_top": 0,
+        "spacing_bottom": 20,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "row_size_desktop": "16.5",
+        "row_size_mobile": "25",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "d705fd03-9bfa-4d1b-bf61-992143f2ac80": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14619442118750__d705fd03-9bfa-4d1b-bf61-992143f2ac80-newsletter-1": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Sign up for exclusive savings",
+            "content": "<p>Subscriber exclusive sign up for an extra 5% off</p>",
+            "button_label": "Subscribe",
+            "disclaimer": "<p>We'll use your information in accordance with our <a href=\"/pages/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a></p><p>*Terms & Conditions Apply</p>",
+            "success": "<p>Success! You’ve been subscribed.</p>",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 12,
+            "layout_x_alignment": "text-center justify-center flex-col items-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14619442118750__d705fd03-9bfa-4d1b-bf61-992143f2ac80-newsletter-1"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "spacing_top": 0,
+        "spacing_bottom": 20,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "layout_x_alignment": "justify-center",
+        "visibility": ""
+      }
+    },
+    "newsletter_NX4fHp": {
+      "type": "newsletter",
+      "blocks": {
+        "newsletter_MWEfAd": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Sign Up Now",
+            "content": "<p>Subscriber Exclusive Sign Up For An Extra 10% Off</p>",
+            "button_label": "Subscribe",
+            "disclaimer": "<p>We'll use your information in accordance with our <a href=\"/pages/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a></p><p>*Terms & Conditions Apply</p>",
+            "success": "<p>Success! You’ve Been Subscribed.</p>",
+            "layout_desktop_width": 5,
+            "layout_mobile_width": 12,
+            "layout_x_alignment": "text-center justify-center flex-col items-center"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_MWEfAd"
+      ],
+      "settings": {
+        "spacing_top": 0,
+        "spacing_bottom": 20,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "layout_x_alignment": "justify-center",
+        "visibility": ""
+      }
+    },
+    "content_grid_7KdV4K": {
+      "type": "content-grid",
+      "blocks": {
+        "content_gRmw8h": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "/",
+            "full_block_link": false,
+            "image_featured": "shopify://shop_images/BC-SS24-Website-_Recovered_-clearpay_2aaa18ad-cd4e-49bc-b89b-38480f7e43b4.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_XGEdVm": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "/",
+            "full_block_link": false,
+            "image_featured": "shopify://shop_images/BC-SS24-Website-_Recovered_-klarna_e3c58dda-9df0-47c6-9310-2d3845f14a0a.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "content_gRmw8h",
+        "content_XGEdVm"
+      ],
+      "name": "Quick Links",
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "row_size_desktop": "md:grid-cols-2",
+        "row_size_mobile": "grid-cols-1",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "text_QxcT3f": {
+      "type": "text",
+      "custom_css": [
+        ".html {font-size: 0.5rem;}"
+      ],
+      "settings": {
+        "heading": "Discount Branded Clothing & Footwear",
+        "content": "<p>Introducing <strong>Brand Corner</strong>, your ultimate destination for affordable, discounted branded apparel and footwear online. Enjoy savings of up to 75% off the recommended retail price, featuring renowned names such as Bewley & Rich, Born Rich, CRS55, Crosshatch, Duck and Cover, Dunlop, EKO Essentials, Farah, French Connection, Juice, Money, NVME, Smith and Jones, and Von Dutch.</p><p><br/>At Brand Corner, we provide genuine, high-quality products at unbeatable discounts. Whether you're in search of jeans, jumpers, shirts, footwear, socks, boxers, accessories, or wardrobe essentials like trainers, t-shirts, and jackets, Brand Corner is your go-to destination for securing authentic, must-have items at a fraction of the cost.</p>",
+        "button_label": "",
+        "button_url": "/",
+        "spacing_top": 40,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "text-center justify-center",
+        "visibility": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_dUjbh4",
+    "liquid_tNWYHN",
+    "liquid_tXgCGA",
+    "liquid_BYzJFf",
+    "liquid_AKTULJ",
+    "liquid_4GUew7",
+    "liquid_3DWeDU",
+    "liquid_FfH9NB",
+    "content_grid_7YrUrR",
+    "liquid_LHXpPw",
+    "product_slider_DiqEL6",
+    "content_grid_PdfVwt",
+    "banner_BR8gUK",
+    "banner_zHLe4e",
+    "logo_list_mqVrDb",
+    "d705fd03-9bfa-4d1b-bf61-992143f2ac80",
+    "newsletter_NX4fHp",
+    "content_grid_7KdV4K",
+    "text_QxcT3f"
+  ]
+}

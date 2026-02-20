@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page__main",
+      "disabled": true,
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text"
+      }
+    },
+    "banner_7VLaCE": {
+      "type": "banner",
+      "name": "t:sections.banner.name",
+      "settings": {
+        "url": "",
+        "show_entire_image": false,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "border--b-width",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_YcDy3g": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "url": "",
+        "image_background_desktop": "shopify://shop_images/BC-WEEKLY-DEALS-mega-markdowns-desktop-title.jpg",
+        "image_background_mobile": "shopify://shop_images/BC-WEEKLY-DEALS-title-mobile.jpg",
+        "show_entire_image": true,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-body color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "border--b-width",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "liquid_eWLM6x": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "t:sections.liquid.name",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/WEEKLY_DEAL_-_Desktop_August_Pay_Day.png?v=1756464860\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/WEEKLY_DEAL_-_Mobile_August_Pay_Day.png?v=1756464861\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 40,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "border--b-width",
+        "layout_padding": true,
+        "visibility": ""
+      }
+    },
+    "image_with_text_code_1_GmjY6H": {
+      "type": "image-with-text-code-1",
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-12PK-MCBLACKEN-BOXERS-TILE.jpg",
+        "section-heading": "Mcblacken 12PK Boxers £30.60",
+        "description": "Stock up and save with the Mcblacken 12PK Boxers for just £30.60 on Brandcorner! Everyday comfort for less - use code 12BOXERS at checkout. Perfect for refreshing your essentials.",
+        "code": "12BOXERS",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://products/mcblacken-boxers-12pk-black"
+      }
+    },
+    "image_with_text_code_1_kDRWn4": {
+      "type": "image-with-text-code-1",
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-5-AND-UNDER-TILE_a68dae02-4766-478a-97b0-482775fb4c74.jpg",
+        "section-heading": "Everything £5 & Under",
+        "description": "Check out our £5 & Under collection for the ultimate bargains!",
+        "code": "",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/5-and-under"
+      }
+    },
+    "product_slider_8P3WAm": {
+      "type": "product-slider",
+      "blocks": {
+        "card_FghLny": {
+          "type": "card",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "Button",
+            "button_url": "/"
+          }
+        }
+      },
+      "block_order": [
+        "card_FghLny"
+      ],
+      "disabled": true,
+      "settings": {
+        "collection": "crosshatch-denim-short-deal",
+        "products_count": 7,
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/collections/all",
+        "spacing_top": 0,
+        "spacing_bottom": 80,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_7VLaCE",
+    "banner_YcDy3g",
+    "liquid_eWLM6x",
+    "image_with_text_code_1_GmjY6H",
+    "image_with_text_code_1_kDRWn4",
+    "product_slider_8P3WAm"
+  ]
+}

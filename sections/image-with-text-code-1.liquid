@@ -1,0 +1,157 @@
+<div class="section-{{ section.id }} section-image-code {{ section.settings.custom_class }}" id="{{ section.id }}" style="background:{{ section.settings.backgroundColor }}">
+  <div class="image-wrapper">
+    {%- if section.settings.image != blank -%}
+        {{
+          section.settings.image
+          | img_url: 'master'
+          | img_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
+        }}
+    {%- endif -%}
+  </div>
+  <div class="text-wrapper">
+    {% if section.settings.section-heading != blank %}
+      <h2>{{ section.settings.section-heading }}</h2>
+    {% endif %}
+    {%if section.settings.description.size > 130 %}
+    {% if section.settings.description != blank %}
+      <div class="description">{{ section.settings.description | truncate: 150 }} <a class="show-more">show more</a></div>
+
+      <div class="description-full">{{ section.settings.description }}</div>
+    {% endif %}
+    {% else %}
+    {% if section.settings.description != blank %}
+      <div class="description-fulls">{{ section.settings.description }}</div>
+    {% endif %}
+    {% endif %}
+    <div class="button-wapper-code">
+    {% if section.settings.code != blank %}
+      <div class="code">
+          <input onclick="copyCode()" class="copy-input" value="{{ section.settings.code }}" id="copyClipboard-{{- section.id -}}" readonly="">
+         
+          <button class="copy-btn" id="copyButton-{{- section.id -}}" onclick="copyCode{{- section.id |remove:'--'-}}()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 16.5L19.5 4.5L18.75 3.75H9L8.25 4.5L8.25 7.5L5.25 7.5L4.5 8.25V20.25L5.25 21H15L15.75 20.25V17.25H18.75L19.5 16.5ZM15.75 15.75L15.75 8.25L15 7.5L9.75 7.5V5.25L18 5.25V15.75H15.75ZM6 9L14.25 9L14.25 19.5L6 19.5L6 9Z" fill="#080341"/>
+          </svg>
+        </button>
+        <div id="copied-success-{{- section.id -}}" class="copied">
+          <span>Code copied</span>
+        </div>
+      </div>
+    {% endif %}
+    {% if section.settings.button_label != blank %}
+      <div class="button">
+      <a href="{{ section.settings.button_link }}">
+        {{ section.settings.button_label }}
+      </a>
+      </div>
+    {%- endif -%}
+            </div>
+  </div>
+</div>
+
+<script>
+  // function showDescriptiontemplate18309057675522weekly_deal_YbdkXj() {
+  //   var a = document.getElementById("{{ section.id }}");
+  //   a.classList.add("show-all");
+  // }
+  function copyCode{{- section.id |remove:'--'-}}() {
+    let copyText = document.getElementById("copyClipboard-{{- section.id -}}");
+    let copySuccess = document.getElementById("copied-success-{{- section.id -}}");
+    
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); 
+    navigator.clipboard.writeText(copyText.value);
+   copySuccess.style.opacity = "1";
+   setTimeout(function(){ copySuccess.style.opacity = "0" }, 500);
+  }
+ 
+  $('.show-more').click(function(){
+    $(this).parents('.text-wrapper').toggleClass('show-full');
+});
+</script>
+<style>
+	@media (min-width: 767px) {
+  .button-wapper-code{display:flex;gap:15px;        max-width: 600px;}
+.button-wapper-code > div{max-width:50%;width:100%;}
+}
+  .copy-input{text-align:center;background:none!important;border:none!important;     font-weight: 600;   outline: none !important;}
+  .copied span{font-size:13px;}
+  .copied {
+    font-size: 16px;
+    max-width: 120px;
+    opacity: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+    right: 0;
+    white-space: nowrap;
+    margin: auto;
+    color: #fff;
+    padding: 3px 15px;
+    background-color: #000;
+    border-radius: 5px;
+    transition: .4s opacity;
+}
+  .section-product-code {background: #fff;padding:15px 0;}
+</style>
+{% schema %}
+  {
+    "name": "Image With Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Custom Class"
+      },
+      {
+        "type": "color",
+        "id": "backgroundColor",
+        "label": "Background Color"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "section-heading",
+        "label": "Heading"
+      },
+      {
+        "type": "textarea",
+        "id": "description",
+        "label": "Description"
+      },
+      {
+        "type": "textarea",
+        "id": "code",
+        "label": "Code"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "Button Label"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button Link"
+      }
+    ],
+    "blocks": [],
+    "presets": [
+    {
+      "name": "Image With Text",
+      "blocks": []
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,145 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "theme_announcement": {
+      "type": "theme__announcement",
+      "blocks": {
+        "f2232503-8685-46db-aaf1-b796c5ea14f9": {
+          "type": "text",
+          "settings": {
+            "content": "<p><a href=\"/pages/warehouse-relocation-update\" title=\"Warehouse Relocation - Update\">WAREHOUSE RELOCATION IN PROGRESS - CLICK HERE FOR MORE INFO</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "f2232503-8685-46db-aaf1-b796c5ea14f9"
+      ],
+      "settings": {
+        "color_scheme": "color__bg-secondary color__secondary",
+        "layout_alignment": "center",
+        "visibility": "",
+        "announcement_delay": 10,
+        "show_account_link": true,
+        "show_localization": true
+      }
+    },
+    "theme_header": {
+      "type": "theme__header",
+      "blocks": {
+        "image_Ad6Rg4": {
+          "type": "Image",
+          "settings": {
+            "layout": "bottom",
+            "menu": "New In",
+            "title": "",
+            "image1": "shopify://shop_images/BC-SS25-Website-NEW-IN-NAV_3ea463dc-124a-4ed3-8e9e-35d85c938836.jpg",
+            "url1": "shopify://collections/new-in",
+            "image2": "shopify://shop_images/BC-SS25-Website-WOMENS-NAV_1d64540e-80cd-481e-a44e-edaca3f2abdb.jpg",
+            "url2": "shopify://collections/lookus",
+            "image3": "shopify://shop_images/BC-SS25-Website-MENS-NAV_38a0ae7a-45ab-452d-92aa-e3f781085305.jpg",
+            "url3": "shopify://collections/kings-will-dream",
+            "url4": "",
+            "url5": "",
+            "url6": "",
+            "url7": "",
+            "url8": ""
+          }
+        },
+        "e561cffb-e23b-4a10-8382-4959a1b99bf2": {
+          "type": "Content",
+          "settings": {
+            "menu": "shop",
+            "url": "shopify://collections/all",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "image_8p4Ynx": {
+          "type": "Image",
+          "settings": {
+            "layout": "left",
+            "menu": "brands",
+            "title": "Featured Brands",
+            "image1": "shopify://shop_images/Artboard_8_copy_17.png",
+            "url1": "shopify://collections/crosshatch",
+            "image2": "shopify://shop_images/Artboard_8_copy_16.png",
+            "url2": "shopify://collections/duck-and-cover",
+            "image3": "shopify://shop_images/Artboard_8_copy_15.png",
+            "url3": "shopify://collections/french-connection",
+            "image4": "shopify://shop_images/Artboard_8_copy_18.png",
+            "url4": "shopify://collections/henleys",
+            "image5": "shopify://shop_images/Artboard_8_copy_14.png",
+            "url5": "shopify://collections/born-rich",
+            "image6": "shopify://shop_images/Artboard_8_copy_11.png",
+            "url6": "shopify://collections/lookus",
+            "image7": "shopify://shop_images/Archive_93ff5e9b-600a-409f-9a6b-587adfd2e020.png",
+            "url7": "shopify://collections/archive-design-studios",
+            "image8": "shopify://shop_images/Artboard_8_copy_13.png",
+            "url8": "shopify://collections/bewley-ritch"
+          }
+        },
+        "content_N3KkFH": {
+          "type": "Content",
+          "disabled": true,
+          "settings": {
+            "menu": "",
+            "url": "",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.</p>"
+          }
+        },
+        "content_akHVkD": {
+          "type": "Content",
+          "settings": {
+            "menu": "",
+            "url": "",
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or inform customers about a promotion.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_Ad6Rg4",
+        "e561cffb-e23b-4a10-8382-4959a1b99bf2",
+        "image_8p4Ynx",
+        "content_N3KkFH",
+        "content_akHVkD"
+      ],
+      "custom_css": [],
+      "settings": {
+        "dropdown_links": "main-menu-new",
+        "search_links": "",
+        "logo_light": "shopify://shop_images/BrandCorner_-_Text_W_2f2e74d1-4f95-44e9-a127-ef96a0736d25.png",
+        "logo_desktop_height": 45,
+        "logo_mobile_height": 50,
+        "bar_color_scheme": "color__bg-primary color__primary",
+        "bar_color_border": "color__border-divider-1",
+        "bar_layout_desktop": "left-below",
+        "bar_button_cart_type": "icon",
+        "bar_button_search_type": "icon",
+        "bar_button_login_type": "icon",
+        "bar_button_menu_type": "icon",
+        "enable_search": true,
+        "dropdown_color_scheme": "color__bg-secondary color__secondary",
+        "dropdown_color_border": "color__border-divider-1",
+        "search_color_scheme": "color__bg-primary color__primary",
+        "search_color_border": "color__border-divider-1",
+        "visibility": ""
+      }
+    }
+  },
+  "order": [
+    "theme_announcement",
+    "theme_header"
+  ]
+}

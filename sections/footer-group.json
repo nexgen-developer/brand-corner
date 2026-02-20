@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "theme_footer": {
+      "type": "theme__footer",
+      "blocks": {
+        "content_qaRdNT": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "<p>Your ultimate destination for affordable, discounted branded apparel and footwear online.</p>",
+            "button_label": "",
+            "button_url": "",
+            "logo_light": "shopify://shop_images/BrandCorner_-_Text_W_2f2e74d1-4f95-44e9-a127-ef96a0736d25.png",
+            "logo_desktop_height": 50,
+            "logo_mobile_height": 30
+          }
+        },
+        "d87893f7-81bb-4364-8373-de4b79c1ce47": {
+          "type": "menu",
+          "settings": {
+            "menu": "main-menu"
+          }
+        },
+        "93a10caa-0edc-4bd5-82ac-2f3421fcbc79": {
+          "type": "menu",
+          "settings": {
+            "menu": "customer-service"
+          }
+        },
+        "menu_MfEyRj": {
+          "type": "menu",
+          "settings": {
+            "menu": "shop"
+          }
+        },
+        "6ad6b950-210d-4cf8-b231-62c67db4980e": {
+          "type": "menu",
+          "settings": {
+            "menu": "share-us"
+          }
+        }
+      },
+      "block_order": [
+        "content_qaRdNT",
+        "d87893f7-81bb-4364-8373-de4b79c1ce47",
+        "93a10caa-0edc-4bd5-82ac-2f3421fcbc79",
+        "menu_MfEyRj",
+        "6ad6b950-210d-4cf8-b231-62c67db4980e"
+      ],
+      "settings": {
+        "main_color_scheme": "color__bg-primary color__primary",
+        "main_color_border": "!color__border-transparent",
+        "main_color_button": "btn btn--secondary",
+        "sub_color_scheme": "color__bg-secondary color__secondary",
+        "sub_color_border": "color__border-divider-1",
+        "sub_color_button": "btn btn--secondary",
+        "sub_links": "footer",
+        "sub_enable_payment_icons": false,
+        "enable_follow_on_shop": false,
+        "visibility": ""
+      }
+    }
+  },
+  "order": [
+    "theme_footer"
+  ]
+}

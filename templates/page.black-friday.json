@@ -1,0 +1,337 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page__main",
+      "settings": {
+        "spacing_top": 40,
+        "spacing_bottom": 40,
+        "color_scheme": "color__bg-body color__text"
+      }
+    },
+    "banner_YcDy3g": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "url": "",
+        "image_background_desktop": "shopify://shop_images/BC-WEEKLY-DEALS-mega-markdowns-desktop-title.jpg",
+        "image_background_mobile": "shopify://shop_images/BC-WEEKLY-DEALS-title-mobile.jpg",
+        "show_entire_image": true,
+        "show_video_background_mobile": true,
+        "color_scheme": "color__bg-overlay-1 color__text",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "border--b-width",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_code_1_d9RKB7": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-xplicit-tile.jpg",
+        "section-heading": "Christmas novelty Tee's for £5",
+        "description": "Get into the festive spirit with our Christmas novelty tees for just £5! Fun, festive, and perfect for the holiday season. No code needed—grab yours now while stocks last!",
+        "code": "",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/xplicit-christmas-t-shirts"
+      }
+    },
+    "image_with_text_code_1_B9LQkE": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-SAZZI-SML-MIAL.jpg",
+        "section-heading": "2PK Jeans for £21.99",
+        "description": "Double up on style this Cyber Monday with our 2-pack jeans for just £21.99! Perfect fit, unbeatable value. Use code 2PKJEAN at checkout—grab this deal before it’s gone!",
+        "code": "2PKJEAN",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/smith-and-jones-2pk-sazzi-jeans"
+      }
+    },
+    "image_with_text_code_1_M8kfhF": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-kandor-5pk-tees-tile-1.gif",
+        "section-heading": "Kandor 5PK Tee's £17.50",
+        "description": "Refresh your wardrobe with our Black Friday deal: 5-pack tees for just £17.50! Perfect for everyday style and unbeatable value. Use code KANDORTEES at checkout—don’t wait, stock up now!",
+        "code": "KANDORTEES",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/kandor-5pk-t-shirts"
+      }
+    },
+    "image_with_text_code_1_bCb6Fg": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-loxham-knit-tile.jpg",
+        "section-heading": "Loxham Knit £9.99",
+        "description": "Elevate your winter wardrobe with Bewley & Ritch's Loxham Knit crewneck for just £9.99 this Black Friday! Stylish, warm, and perfect for the season. Use code KNITSAVING at checkout.",
+        "code": "KNITSAVING",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/loxham-knit"
+      }
+    },
+    "image_with_text_code_1_YTL94J": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-boxer-tile.gif",
+        "section-heading": "3PK Boxers from £6.99",
+        "description": "NO CODE NEEDED - Whether you're needing a refresh to your underwear drawer or need to grab some stocking fillers. This deal is not to be missed!",
+        "code": "",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/3pk-boxers"
+      }
+    },
+    "image_with_text_code_1_6tekXJ": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-5-AND-UNDER-TILE_beee968d-5fb4-4c61-ac66-e0e31920f3ed.jpg",
+        "section-heading": "Everything £5 & Under",
+        "description": "Discover our £5 and under page, packed with stylish clothing at unbeatable prices! Perfect for budget-friendly shopping or finding affordable Christmas gifts without compromising on quality.",
+        "code": "",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/5-and-under"
+      }
+    },
+    "image_with_text_code_1_EBjdyp": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-SNOOD-TILE-2_88d17bc2-3cfc-420c-8b93-1a35618aad1d.gif",
+        "section-heading": "Snood Hoodies £9.99",
+        "description": "Stay cosy this winter with our snood hoodies, now just £9.99 for Black Friday month! Use code SNOOD at checkout—don’t miss this deal!",
+        "code": "SNOOD",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/snoodneck-hoodies"
+      }
+    },
+    "image_with_text_code_1_AkrzMp": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-zelal-tile-1.gif",
+        "section-heading": "Ladies Sport Leggings £9.99",
+        "description": "Whether you’re heading to Pilates or meeting friends for coffee, these leggings are a perfect fit for any occasion! Available in 9 different colours, they’ll compliment any outfit effortlessly.",
+        "code": "ZELAL",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/zelal-leggings"
+      }
+    },
+    "image_with_text_code_1_8Rjmyq": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-max-tile-2.gif",
+        "section-heading": "Ringspun Max Jacket £11.99",
+        "description": "Stay warm this winter without breaking the bank. Grab this Puffer Jacket with a fur lined hood for only £11.99! Code: MAX",
+        "code": "MAX",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/max-jacket-deal"
+      }
+    },
+    "image_with_text_code_1_dB4zbp": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-JUICE-HOODIE-TILE.gif",
+        "section-heading": "Ladies Hoodies £8.50",
+        "description": "Layer up for less with our sustainable hoodies for only £8.50 just use code: CREMMOORE at checkout.",
+        "code": "CREMMOORE",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/cremmoore-womens-hoodies"
+      }
+    },
+    "image_with_text_code_1_VUPyJP": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-sock-tile.jpg",
+        "section-heading": "Sock Sale - from £2.50",
+        "description": "No code required! Prices start at just £2.50, with a fantastic selection of brands like FCUK, Farah, Bench, Duck & Cover, and more. Don’t miss this perfect chance to grab some stocking fillers!",
+        "code": "",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/socks"
+      }
+    },
+    "image_with_text_code_1_YUTppM": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-7pk-boxer-tile.jpg",
+        "section-heading": "7PK Boxers £17",
+        "description": "Stock up on essentials with our Black Friday month deal: 7-pack boxers for only £8.50! Comfort, quality, and unbeatable value—get a fresh pair for every day of the week. Use code 7PKBOXERS at checkout and grab yours before they’re gone!",
+        "code": "7PKBOXERS",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/smith-and-jones-7pk-boxers"
+      }
+    },
+    "image_with_text_code_1_tfWkEz": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-GLOVE-TILE-KWD.jpg",
+        "section-heading": "Drayford Gloves £2.99",
+        "description": "Winter is coming, so we're giving you this unbeatable deal for our KWD Gloves. They feature smart touch fingertips for the index and thumb so you're able to use your smartphone without having to remove your gloves.",
+        "code": "",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://products/drayford-cuffed-glove-black"
+      }
+    },
+    "image_with_text_code_1_7NJfYq": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-one-true-tile.jpg",
+        "section-heading": "Extra 35% OFF One True Saxon",
+        "description": "Grab an extra 35% OFF across the whole of the One True Saxon range! Use code: ONETRUESAXON",
+        "code": "ONETRUESAXON",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/one-true-saxon"
+      }
+    },
+    "image_with_text_code_1_d8LbVy": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-HEXO-TILE-1.gif",
+        "section-heading": "Archive Sliders £7.99",
+        "description": "Whether you're off on holiday or lounging around the house, these sliders will be your go-to. Grab them for only £7.99 today!",
+        "code": "HEXOSLIDE",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://collections/archive-hexo-sliders"
+      }
+    },
+    "image_with_text_code_1_CtDaem": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-BF-DEALS-HENLEYS-JEANS-TILE.jpg",
+        "section-heading": "Henleys Jeans for £12.99",
+        "description": "Grab any pair of Henleys Jeans for only £12.99 when you apply the code: HENLEYSJEAN at checkout.",
+        "code": "HENLEYSJEAN",
+        "button_label": "Get the Deal",
+        "button_link": "https://www.brandcorner.com/collections/henleys-jeans"
+      }
+    },
+    "product_slider_8P3WAm": {
+      "type": "product-slider",
+      "blocks": {
+        "card_FghLny": {
+          "type": "card",
+          "settings": {
+            "heading": "Block heading",
+            "content": "<p>Describe a product, make announcements, or welcome customers to your store.</p>",
+            "button_label": "Button",
+            "button_url": "/"
+          }
+        }
+      },
+      "block_order": [
+        "card_FghLny"
+      ],
+      "disabled": true,
+      "settings": {
+        "collection": "crosshatch-denim-short-deal",
+        "products_count": 7,
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/collections/all",
+        "spacing_top": 0,
+        "spacing_bottom": 80,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "border--b-width",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
+    "image_with_text_code_1_zPqELT": {
+      "type": "image-with-text-code-1",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "backgroundColor": "#ffffff",
+        "image": "shopify://shop_images/BC-WEEKLY-DEALS-ringspu-jacket-tile.jpg",
+        "section-heading": "Ringspun Parka Jacket £19.99",
+        "description": "We're offering this exclusive jacket for just £19.99 (originally £75.00) Don’t miss out on this incredible deal!",
+        "code": "[NO CODE NEEDED]",
+        "button_label": "Get the Deal",
+        "button_link": "shopify://products/ringspun-faun-parka-jacket"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_YcDy3g",
+    "image_with_text_code_1_d9RKB7",
+    "image_with_text_code_1_B9LQkE",
+    "image_with_text_code_1_M8kfhF",
+    "image_with_text_code_1_bCb6Fg",
+    "image_with_text_code_1_YTL94J",
+    "image_with_text_code_1_6tekXJ",
+    "image_with_text_code_1_EBjdyp",
+    "image_with_text_code_1_AkrzMp",
+    "image_with_text_code_1_8Rjmyq",
+    "image_with_text_code_1_dB4zbp",
+    "image_with_text_code_1_VUPyJP",
+    "image_with_text_code_1_YUTppM",
+    "image_with_text_code_1_tfWkEz",
+    "image_with_text_code_1_7NJfYq",
+    "image_with_text_code_1_d8LbVy",
+    "image_with_text_code_1_CtDaem",
+    "product_slider_8P3WAm",
+    "image_with_text_code_1_zPqELT"
+  ]
+}
