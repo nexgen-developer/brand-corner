@@ -69,87 +69,12 @@
         "auto_scroll_delay": 5
       }
     },
-    "liquid_tNWYHN": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "Winter Base",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Winter_Ready_fa097f4e-9b0f-4000-a4cb-ffa5aa7c115a.jpg?v=1767623369\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Winter_Ready_5f9ef152-19a9-439e-b297-9ada6e1e3b3f.jpg?v=1767623369\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_tXgCGA": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "16th Jan (Further Reductions)",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Further_Reduction_5dca0003-f01d-4ee3-82a6-8407ef80ad51.jpg?v=1767700093\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Further_Reduction.jpg?v=1767700096\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_BYzJFf": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "23rd Jan (Last Chance)",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Last_Chance_18869ed0-7a80-4246-9b8a-64bf7c9d9903.jpg?v=1769419564\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Last_Chance_bdd19e97-69a2-4c9e-bc28-b01ef6ae6e49.jpg?v=1769419564\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
     "liquid_AKTULJ": {
       "type": "liquid",
       "disabled": true,
-      "name": "30th Jan (Pay Day)",
+      "name": "27th Feb (Pay Day)",
       "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Pay_Day.jpg?v=1769157415\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Pay_Day.jpg?v=1769157415\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_4GUew7": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "6th Feb (Valentines Underwear)",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Valentines_Mens_Underwear_256c7364-2ada-4fd1-8737-1fc8572fab49.jpg?v=1770301426\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Valentines_Mens_Underwear_a96a7c4a-cbd6-41e3-a98b-2d8bba4044ee.jpg?v=1770301426\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/boxers-briefs\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_3DWeDU": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "13th Feb (Valentines)",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Valentines_Treat_f106270a-a313-4b15-962c-6633c73e1562.jpg?v=1770216461\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Valentines_Treat_1fee2cdc-daf0-4a9f-ad57-a9fbb1ead939.jpg?v=1770216461\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_Pay_Day_copy.jpg?v=1771855097\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Mobile_Pay_Day_copy.jpg?v=1771855097\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
         "spacing_top": 20,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
@@ -777,12 +702,7 @@
   },
   "order": [
     "slideshow_dUjbh4",
-    "liquid_tNWYHN",
-    "liquid_tXgCGA",
-    "liquid_BYzJFf",
     "liquid_AKTULJ",
-    "liquid_4GUew7",
-    "liquid_3DWeDU",
     "liquid_FfH9NB",
     "content_grid_7YrUrR",
     "liquid_LHXpPw",

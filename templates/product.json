@@ -84,7 +84,7 @@
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53": {
           "type": "add",
           "settings": {
-            "content": "<p>WAREHOUSE RELOCATION IN PROGRESS - CLICK HERE FOR MORE INFO </p>",
+            "content": "<p><strong>Delivery: </strong>Please allow 2-5 working days. <a href=\"https://www.brandcorner.com/pages/delivery\">See More Details</a></p>",
             "spacing_top": 20,
             "spacing_bottom": 20,
             "color_scheme": "color__bg-body color__text",
