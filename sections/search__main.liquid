@@ -15,7 +15,12 @@
   style="
     padding-bottom:{{ section.settings.spacing_bottom }}px;
     padding-top:{{ section.settings.spacing_top }}px;">
-
+ <style>
+  @media (max-width: 767px) {
+.hide-AddtoCart .group .add-CartButton{display:none!important;}
+.hide-AddtoCart .pr-contents{padding-bottom:20px;}
+  }
+ </style>
   <div class="pb-12">
 
     {%- comment -%}header{%- endcomment -%}
