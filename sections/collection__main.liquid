@@ -18,7 +18,7 @@
   style="
     padding-bottom:{{ section.settings.spacing_bottom }}px;">
 
-  <div class="{{ settings.layout_horizontal }} {% if section.settings.showAddtoCart %} show-cartMobile{% endif %}">
+  <div class="{{ settings.layout_horizontal }} {% if section.settings.showAddtoCart %} show-cartMobile{%else%} hide-AddtoCart{% endif %}">
 
     {% render 'collection__sublinks' %}
     {% render 'collection__subtags' %}
