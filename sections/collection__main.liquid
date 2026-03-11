@@ -14,7 +14,11 @@
     - Use blocks to showcase promotional content.
 {% endcomment %}
 <style>
-  .hide-cart-grid #gf-products form{display:none!important}
+  @media (max-width: 767px) {
+    .hide-cart-grid #gf-products .no-js--hide.md\:hidden {
+      display: none !important;
+    }
+  }
 </style>
 <section id="js:top" 
   class="{{ section.settings.color_scheme }}"
@@ -29,7 +33,7 @@
     
     {% paginate collection.products by section.settings.products_per_page %}
       <section id="gf-products" 
-        class="grid animation-500 pb-8 {%if settings.disabled_Addtocart %} hide-addTocart{%endif %}
+        class="grid animation-500 pb-8 {% if section.settings.showAddtoCart == false %}hide-cart-grid{% endif %}
           {{ section.settings.row_size_desktop }}
           {{ section.settings.row_size_mobile }}" 
         :class="{ 
