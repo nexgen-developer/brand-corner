@@ -13,13 +13,6 @@
   Pro tips:
     - Use blocks to showcase promotional content.
 {% endcomment %}
-<style>
-  @media (max-width: 767px) {
-    .hide-cart-grid #gf-products .no-js--hide.md\:hidden {
-      display: none !important;
-    }
-  }
-</style>
 <section id="js:top" 
   class="{{ section.settings.color_scheme }}"
   style="
@@ -33,7 +26,7 @@
     
     {% paginate collection.products by section.settings.products_per_page %}
       <section id="gf-products" 
-        class="grid animation-500 pb-8 {% if section.settings.showAddtoCart == false %}hide-cart-grid{% endif %}
+        class="grid animation-500 pb-8
           {{ section.settings.row_size_desktop }}
           {{ section.settings.row_size_mobile }}" 
         :class="{ 
@@ -80,7 +73,10 @@
             {% endfor %}
           {% endif %}
 
-          {% render 'component__product-item', product: product, source: 'col_main' %}
+          {% render 'component__product-item',
+            product: product,
+            source: 'col_main',
+            show_mobile_add_to_cart: section.settings.showAddtoCart %}
         {% endfor %}
       </section>
 
