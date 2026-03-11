@@ -409,7 +409,13 @@
   </a>
 
   {%- comment -%}quick add mobile{%- endcomment -%}
-  {% if settings.enable_quick_mobile and disable_quick_add == false %}
+  {% assign show_mobile_add_to_cart_setting = true %}
+  {% if show_mobile_add_to_cart != nil %}
+    {% assign show_mobile_add_to_cart_setting = show_mobile_add_to_cart %}
+  {% elsif section.settings.showAddtoCart != nil %}
+    {% assign show_mobile_add_to_cart_setting = section.settings.showAddtoCart %}
+  {% endif %}
+  {% if settings.enable_quick_mobile and disable_quick_add == false and show_mobile_add_to_cart_setting %}
     <div class="no-js--hide md:hidden absolute bottom-0 w-full pt-2
       {% if settings.thumbnails_border_style == 'thumbnail' %}pb-2 px-2{% endif %}">
       {% if product.available %}

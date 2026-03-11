@@ -110,8 +110,28 @@
 }
 #gf-products .product-list-item.has-quick-shop {position: relative;}
 #gf-tree .sort-by {display:block;}
-      .sort-by {
-    display: none;
+#gf-controls-container .sort-by {display:block;}
+#gf-controls-container .sort-by-toggle{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+}
+@media only screen and (min-width: 769px){
+  #gf-controls-container .gf-filter-selection{
+    flex: 0 0 auto;
+    min-width: 170px;
+  }
+  #gf-controls-container .sort-by.limit-by.hidden-xs{
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    min-width: 170px;
+    width: 170px;
+    white-space: nowrap;
+  }
+  #gf-controls-container .sort-by.limit-by.hidden-xs select{
+    min-width: 72px;
+  }
 }
       .gf-filter-contents-inner {
         margin-top: 10px;

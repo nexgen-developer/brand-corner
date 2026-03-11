@@ -79,7 +79,10 @@
               {% endfor %}
             {% endif %}
 
-            {% render 'component__product-item', product: product, source: 'col_main' %}
+            {% render 'component__product-item',
+              product: product,
+              source: 'col_main',
+              show_mobile_add_to_cart: section.settings.showAddtoCart %}
           {% endfor %}
         </section>
 
@@ -218,6 +221,12 @@
         }
       ],
       "default":"grid-cols-2"
+    },
+    {
+      "type":"checkbox",
+      "id":"showAddtoCart",
+      "label":"Show Add to cart button on mobile?",
+      "default":true
     },
     {
       "type":"header",
