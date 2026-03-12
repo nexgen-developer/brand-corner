@@ -13,12 +13,18 @@
   Pro tips:
     - Use blocks to showcase promotional content.
 {% endcomment %}
+ <style>
+  @media (max-width: 767px) {
+.hide-AddtoCart .group .add-CartButton{display:none!important;}
+.hide-AddtoCart .pr-contents{padding-bottom:20px;}
+  }
+ </style>
 <section id="js:top" 
   class="{{ section.settings.color_scheme }}"
   style="
     padding-bottom:{{ section.settings.spacing_bottom }}px;">
 
-  <div class="{{ settings.layout_horizontal }}">
+  <div class="{{ settings.layout_horizontal }} {% if section.settings.showAddtoCart %} show-cartMobile{%else%} hide-AddtoCart{% endif %}">
 
     {% render 'collection__sublinks' %}
     {% render 'collection__subtags' %}

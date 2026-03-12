@@ -15,8 +15,13 @@
   style="
     padding-bottom:{{ section.settings.spacing_bottom }}px;
     padding-top:{{ section.settings.spacing_top }}px;">
-
-  <div class="pb-12">
+ <style>
+  @media (max-width: 767px) {
+.hide-AddtoCart .group .add-CartButton{display:none!important;}
+.hide-AddtoCart .pr-contents{padding-bottom:20px;}
+  }
+ </style>
+  <div class="pb-12 {% if section.settings.showAddtoCart %} show-cartMobile{%else%} hide-AddtoCart{% endif %}">
 
     {%- comment -%}header{%- endcomment -%}
     <div class="
@@ -80,6 +85,13 @@
 {
   "name":"t:sections.search_main.name",
   "settings":[
+    
+    {
+      "type":"checkbox",
+      "id":"showAddtoCart",
+      "label":"Show Add to cart button on mobile?",
+      "default":false
+    },
     {
       "type": "header",
       "content": "t:sections.all.headers.header__22.content"
