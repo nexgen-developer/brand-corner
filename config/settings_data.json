@@ -318,7 +318,7 @@
         "type": "shopify://apps/smart-filter-search/blocks/app-embed/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
         "disabled": false,
         "settings": {
-          "productGridSelector": "",
+          "productGridSelector": "section#js\\\\:results",
           "useCustomQuickviewTemplate": false,
           "customJs": "",
           "customCss": "#gf-products img.lazyload, #gf-products img.lazyloaded{\n    height: 100% !important;\n    object-fit: cover !important;\n}\na.spf-product-card__image-wrapper:hover {\n    opacity: 1 !important;\n}",
