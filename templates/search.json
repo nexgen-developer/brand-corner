@@ -12,6 +12,7 @@
     "main": {
       "type": "search__main",
       "settings": {
+        "showAddtoCart": false,
         "spacing_top": 60,
         "spacing_bottom": 60,
         "items_per_page": 12,
@@ -19,19 +20,19 @@
         "color_border": "color__border-divider-1",
         "row_size_desktop": "md:grid-cols-4",
         "row_size_mobile": "grid grid-cols-2",
-        "enable_sort": false,
-        "enable_filter": false
+        "enable_sort": true,
+        "enable_filter": true
       }
     },
     "17376147283bec2989": {
       "type": "apps",
       "blocks": {
         "wiser_product_recommendations_wiser_browsing_Tq8TBV": {
-          "type": "shopify://apps/wiser-product-recommendations/blocks/wiser_browsing/3f966edc-9a4a-465c-a4df-436d2a39160d",
+          "type": "shopify://apps/wiser-ai-upsell-cross-sell/blocks/wiser_browsing/3f966edc-9a4a-465c-a4df-436d2a39160d",
           "settings": {}
         },
         "wiser_product_recommendations_wiser_recent_mbiWcx": {
-          "type": "shopify://apps/wiser-product-recommendations/blocks/wiser_recent/3f966edc-9a4a-465c-a4df-436d2a39160d",
+          "type": "shopify://apps/wiser-ai-upsell-cross-sell/blocks/wiser_recent/3f966edc-9a4a-465c-a4df-436d2a39160d",
           "settings": {}
         }
       },
