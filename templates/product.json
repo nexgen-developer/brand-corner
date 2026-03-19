@@ -72,6 +72,12 @@
             "position": "right"
           }
         },
+        "linkify_product_colors_app_block_aGLHrk": {
+          "type": "shopify://apps/linkify-product-colors/blocks/app-block/1fdc741b-f4ed-4b8c-aee7-aa5e4ad76aa8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58": {
           "type": "options",
           "settings": {
@@ -219,6 +225,7 @@
         "flair_product_labels_badges_product_badges_bHFmVY",
         "flair_product_labels_badges_banners_WAtdQj",
         "62c29cd6-a0b5-4f8b-86c0-a48660869d22",
+        "linkify_product_colors_app_block_aGLHrk",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
