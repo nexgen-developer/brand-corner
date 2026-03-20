@@ -11,6 +11,7 @@
   "sections": {
     "liquid_LXpPpG": {
       "type": "liquid",
+      "disabled": true,
       "settings": {
         "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BC-SS25-Website-mega-markdowns-collection-desktop-1.gif?v=1743428891\" %}\n{% assign link_url = \"https://www.brandcorner.com/pages/mega-markdowns\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
         "spacing_top": 0,
@@ -24,6 +25,7 @@
     },
     "liquid_jxWByh": {
       "type": "liquid",
+      "disabled": true,
       "settings": {
         "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BC-SS25-Website-mega-markdowns-collection-mobile-1.gif?v=1743428891\" %}\n{% assign link_url = \"https://www.brandcorner.com/pages/mega-markdown\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
         "spacing_top": 0,
