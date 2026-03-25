@@ -71,6 +71,21 @@
     },
     "liquid_AKTULJ": {
       "type": "liquid",
+      "disabled": true,
+      "name": "Pay Day",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Desktop_Pay_Day.jpg?v=1774430524\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Mobile_Pay_Day.jpg?v=1774430523\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_9JaPzm": {
+      "type": "liquid",
       "name": "Spring Is Here",
       "settings": {
         "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Desktop_20_Off_New_In.jpg?v=1773995640\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Mobile_20_Off_New_In.jpg?v=1773995640\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
@@ -719,6 +734,7 @@
   "order": [
     "slideshow_dUjbh4",
     "liquid_AKTULJ",
+    "liquid_9JaPzm",
     "liquid_feEDYH",
     "liquid_FfH9NB",
     "content_grid_7YrUrR",
