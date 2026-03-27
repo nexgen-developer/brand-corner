@@ -112,20 +112,24 @@
 #gf-tree .sort-by {display:block;}
 #gf-controls-container .sort-by {display:block;}
 #gf-controls-container .sort-by-toggle{
-  display:flex;
-  align-items:center;
+  display:inline-flex !important;
+  align-items:center !important;
   justify-content:flex-start;
   min-height: 44px;
-  line-height: 1.2;
+  line-height: 1.2 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  vertical-align: middle;
 }
 #gf-controls-container .sort-by-toggle span{
-  display: inline-flex;
-  align-items: center;
-  line-height: 1.2;
+  display: inline-flex !important;
+  align-items: center !important;
+  line-height: 1.2 !important;
+  vertical-align: middle;
 }
 #gf-controls-container .sort-by-toggle:after{
-  top: 50%;
-  transform: translateY(-50%);
+  top: 50% !important;
+  transform: translateY(-50%) !important;
 }
 @media only screen and (min-width: 769px){
   #gf-controls-container .gf-filter-selection{
