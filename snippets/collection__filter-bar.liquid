@@ -86,7 +86,7 @@
                     <label class="type__nav color__text hover:color__bg-overlay-1 flex items-center w-full px-4 py-2">
                       <input type="radio" class="form-radio" value="{{ option.value }}" name="sort_by" autocomplete="off" x-model="sort_by"
                         {% if sort_by == option.value %}checked{% endif %}>
-                      <span class="type--base ml-2">{{ option.name }}</span>
+                      <span class="ml-2">{{ option.name }}</span>
                     </label>
                   {% endfor %}
                 {% endcapture %}
@@ -271,7 +271,7 @@
                   <label class="flex items-center w-full mb-4">
                     <input type="radio" class="form-radio" value="{{ option.value }}" name="sort_by" autocomplete="off" x-model="sort_by"
                     {% if sort_by == option.value %}checked{% endif %}>
-                    <span class="type--base ml-2">{{ option.name }}</span>
+                    <span class="ml-2">{{ option.name }}</span>
                   </label>
                 {% endfor %}
               </div>
