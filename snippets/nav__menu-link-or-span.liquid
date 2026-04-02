@@ -1,0 +1,27 @@
+{% comment %}
+  Renders <a> or non-interactive <span> for mega menu / noscript when URL is a placeholder (#, etc.).
+
+  Accepts:
+    - url: link.url
+    - title: link title string
+    - class: CSS classes for both elements (include no-underline as needed)
+{% endcomment %}
+{% liquid
+  assign u = url | strip | downcase
+  assign is_placeholder = false
+  if u == '#' or u == '/#'
+    assign is_placeholder = true
+  elsif u contains 'javascript:void(0)'
+    assign is_placeholder = true
+  else
+    assign parts = u | split: '#'
+    if parts.size > 1 and parts.last == ''
+      assign is_placeholder = true
+    endif
+  endif
+%}
+{% if is_placeholder %}
+  <span class="{{ class }} header__nav-label">{{ title }}</span>
+{% else %}
+  <a href="{{ url }}" class="{{ class }}">{{ title }}</a>
+{% endif %}
