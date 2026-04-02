@@ -47,11 +47,23 @@
     {% if section.settings.bar_layout_desktop == "left-inline" %}pl-6 flex-grow{% endif %}">   
 
     {%- for link in section.settings.dropdown_links.links -%}
+      {% liquid
+        assign nav_url = link.url | strip
+        assign link_is_placeholder = false
+        if link.levels >= 1
+          if nav_url == '#' or nav_url == '/#'
+            assign link_is_placeholder = true
+          else
+            assign url_parts = nav_url | split: '#'
+            if url_parts.size > 1 and url_parts.last == ''
+              assign link_is_placeholder = true
+            endif
+          endif
+        endif
+      %}
       <div class="flex-shrink">
-        <a 
-          href="{{ link.url }}"
-          onclick=""
-          class="header__link h-full flex items-center mr-2 block no-underline
+        {% capture header_link_classlist %}
+header__link h-full flex items-center mr-2 block no-underline
           {% if settings.type_header == 'body' %}type__body{% endif %}
           {% if settings.type_header == 'heading' %}type__heading{% endif %}
           {% if settings.type_header == 'navigation' %}type__nav{% endif %}
@@ -65,12 +77,31 @@
             px-4 mx-2
           {% else %}
             mr-2 pr-4
-          {% endif %}">
+          {% endif %}
+        {% endcapture %}
+        {% if link_is_placeholder %}
+          <button
+            type="button"
+            class="{{ header_link_classlist | strip }}"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+        {% else %}
+          <a
+            href="{{ link.url }}"
+            onclick=""
+            class="{{ header_link_classlist | strip }}"
+          >
+        {% endif %}
           {{ link.title }}
           {% if link.levels >= 1 %}
             {% render 'component__icon', icon: 'chevron-down', class: 'ml-1', size: '16' %}
           {% endif %}
-        </a>
+        {% if link_is_placeholder %}
+          </button>
+        {% else %}
+          </a>
+        {% endif %}
 
         {% if link.levels >= 1 %}
           <div class="header__dropdown animation-300 absolute left-0 block w-full h-0 overflow-hidden normal-case opacity-0">
@@ -619,6 +650,22 @@
   .block-image-bottom img{max-width:200px;}
   .block-image-left img{max-width:140px;}
   .block-image-menu h3{font-size:20px;}
+  /* Parent-only menu items using # — button, not link; match link appearance and avoid anchor hover */
+  button.header__link {
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    appearance: none;
+    text-align: inherit;
+    cursor: default;
+  }
+  @media (min-width: 768px) {
+    button.header__link:hover,
+    button.header__link:focus {
+      opacity: 1;
+    }
+  }
 </style>
 {% schema %}
 {
