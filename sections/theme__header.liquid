@@ -48,10 +48,12 @@
 
     {%- for link in section.settings.dropdown_links.links -%}
       {% liquid
-        assign nav_url = link.url | strip
+        assign nav_url = link.url | strip | downcase
         assign link_is_placeholder = false
         if link.levels >= 1
           if nav_url == '#' or nav_url == '/#'
+            assign link_is_placeholder = true
+          elsif nav_url contains 'javascript:void(0)'
             assign link_is_placeholder = true
           else
             assign url_parts = nav_url | split: '#'
@@ -650,20 +652,26 @@ header__link h-full flex items-center mr-2 block no-underline
   .block-image-bottom img{max-width:200px;}
   .block-image-left img{max-width:140px;}
   .block-image-menu h3{font-size:20px;}
-  /* Parent-only menu items using # — button, not link; match link appearance and avoid anchor hover */
-  button.header__link {
+  /* Parent-only menu items using # — button, not link; beat global `button { cursor:pointer }` (styles-f3ba8c8f.css) */
+  button.header__link,
+  button.header__link:hover,
+  button.header__link:focus,
+  button.header__link:focus-visible,
+  button.header__link:active {
     background: none;
     border: none;
     font: inherit;
     color: inherit;
     appearance: none;
     text-align: inherit;
-    cursor: default;
+    cursor: default !important;
+    opacity: 1 !important;
   }
   @media (min-width: 768px) {
     button.header__link:hover,
-    button.header__link:focus {
-      opacity: 1;
+    button.header__link:focus,
+    button.header__link:focus-visible {
+      opacity: 1 !important;
     }
   }
 </style>
