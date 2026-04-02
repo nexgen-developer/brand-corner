@@ -264,10 +264,14 @@
           })
       }
   
+      const optionFilled = (index) =>
+        optionsArrray[index] != null && optionsArrray[index] !== '';
+
       const showOptionAvailability =
         everythingSelected ||
-        (optionsLength === 2 && optionsArrray[0] && optionsArrray[0] !== '') ||
-        (optionsLength === 3 && optionsArrray[0] && optionsArrray[1]);
+        (optionsLength === 2 && (optionFilled(0) || optionFilled(1))) ||
+        (optionsLength === 3 &&
+          (optionFilled(0) || optionFilled(1) || optionFilled(2)));
 
       if (showOptionAvailability) {
          {% comment %} selectors {% endcomment %}
