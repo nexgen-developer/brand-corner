@@ -207,9 +207,7 @@
     let everythingSelected = this.optionValues.every((value) => {
       return value != ''
     })
-    if(everythingSelected) {
-      allOptionsSelected = true
-    }
+    this.allOptionsSelected = everythingSelected;
     this.optionValues = this.optionValues.join('-');
     if( this.optionValues ){
       this.variantHandle = this.optionValues;
@@ -266,7 +264,12 @@
           })
       }
   
-      if(this.allOptionsSelected) {
+      const showOptionAvailability =
+        everythingSelected ||
+        (optionsLength === 2 && optionsArrray[0] && optionsArrray[0] !== '') ||
+        (optionsLength === 3 && optionsArrray[0] && optionsArrray[1]);
+
+      if (showOptionAvailability) {
          {% comment %} selectors {% endcomment %}
       const options1 = document.querySelectorAll('button[id=&quot;' + 'option-1' + '&quot;]')
       const options2 = document.querySelectorAll('button[id=&quot;' + 'option-2' + '&quot;]')
