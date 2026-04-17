@@ -16,23 +16,9 @@
         "spacing_bottom": 60,
         "color_scheme": "color__bg-body color__text"
       }
-    },
-    "liquid_req6Rd": {
-      "type": "liquid",
-      "settings": {
-        "liquid": "<div id=“omnisend-embedded-v2-6690f2ddfd327c846262b29f”></div>",
-        "spacing_top": 100,
-        "spacing_bottom": 100,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "border--b-width",
-        "layout_padding": true,
-        "visibility": ""
-      }
     }
   },
   "order": [
-    "main",
-    "liquid_req6Rd"
+    "main"
   ]
 }
