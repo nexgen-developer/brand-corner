@@ -143,6 +143,21 @@
         "visibility": ""
       }
     },
+    "liquid_Nky638": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "5th June - Summer",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_5992b09c-5ed4-43b1-acee-4d3adb08a2fc.jpg?v=1779454727\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_8c2cedb2-2484-4517-b229-8ed89411e168.jpg?v=1779454728\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
     "content_grid_7YrUrR": {
       "type": "content-grid",
       "blocks": {
@@ -753,6 +768,7 @@
     "liquid_FfH9NB",
     "liquid_7wdTYL",
     "liquid_9bLUmB",
+    "liquid_Nky638",
     "content_grid_7YrUrR",
     "liquid_LHXpPw",
     "product_slider_DiqEL6",
