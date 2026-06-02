@@ -340,6 +340,11 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "1277379497118542544": {
+        "type": "shopify://apps/rubik-combined-listings/blocks/app-embed/019b5f8a-bfd9-7fb7-9652-d0ded857cf18",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
