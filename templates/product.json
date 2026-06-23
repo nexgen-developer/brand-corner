@@ -92,6 +92,14 @@
             "style_border": ""
           }
         },
+        "mailchimp_email_sms_mailchimp_for_shopify_bis_3x3rHL": {
+          "type": "shopify://apps/mailchimp-email-sms/blocks/mailchimp_for_shopify_bis/e3b67dce-fd41-4b61-b3cf-961c12344cde",
+          "settings": {
+            "button_text": "Notify me when available",
+            "button_bg_color": "#2E2E2E",
+            "button_text_color": "#ffffff"
+          }
+        },
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53": {
           "type": "add",
           "settings": {
@@ -229,6 +237,7 @@
         "62c29cd6-a0b5-4f8b-86c0-a48660869d22",
         "linkify_product_colors_app_block_aGLHrk",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d58",
+        "mailchimp_email_sms_mailchimp_for_shopify_bis_3x3rHL",
         "b78b560b-e1c2-428d-ad73-fb5f8aac6d53",
         "123fd04c-91f3-4248-a65a-614e2f64fdeb",
         "0f2346c8-f52b-4c29-83c1-076c3bb139e5",
