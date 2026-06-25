@@ -233,7 +233,7 @@ const cart = {
   },
   // Update cart with fetched data
   updateCart(openCart) {
-    console.log("6666666")
+    console.log("6666666");
     this.cart_loading = true;
     fetch(`${window.Shopify.routes.root}cart.js`, {
       method: "GET",
