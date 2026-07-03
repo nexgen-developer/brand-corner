@@ -50,7 +50,7 @@
         </div>
         <div class="gf-block-content">
           {% if filter.searchable and filter.style != 'Slider' %}<input type="text" placeholder="{{ translation.filter.search | default: "Search options"}}" value="" onkeyup="globofilter.searchValues(this);" class="gf-search">{% endif %}
-          <div class="gf-scroll {% if filter.style != 'Select' and filter.style != 'Slider' and values_count > 5 %}gf-block-scroll{% endif %}">
+          <div class="gf-scroll {% if filter.style != 'Select' and filter.style != 'Slider' %}gf-block-scroll{% endif %}">
             {% if filter.style == 'Slider' %}
             <div class="gf-range-inputs">
               <input 

@@ -153,58 +153,97 @@
 
   window.refreshFlairCollectionBadges = refreshNewFlairBadges;
 
+  function updateGloboScrollFade(scroll, fade) {
+    if (!scroll || !fade) return;
+
+    var canScroll = scroll.scrollHeight - scroll.clientHeight > 4;
+    var hasMoreBelow = scroll.scrollTop + scroll.clientHeight < scroll.scrollHeight - 4;
+    fade.classList.toggle('is-visible', canScroll && hasMoreBelow);
+  }
+
+  function bindGloboScrollFade(scroll, fade) {
+    function update() {
+      updateGloboScrollFade(scroll, fade);
+    }
+
+    if (scroll.dataset.fadeBound !== 'true') {
+      scroll.dataset.fadeBound = 'true';
+      scroll.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+    }
+
+    window.requestAnimationFrame(update);
+    window.setTimeout(update, 150);
+    window.setTimeout(update, 400);
+  }
+
   function initGloboFilterScrollHints() {
-    document.querySelectorAll('.gf-option-block .gf-block-content').forEach(function (block) {
-      var scroll = block.querySelector('.gf-scroll');
+    var tree = document.getElementById('gf-tree');
+    if (!tree) return;
 
-      if (!scroll || scroll.querySelector('.gf-range-slider') || scroll.querySelector('select')) {
+    tree.querySelectorAll('.gf-scroll').forEach(function (scroll) {
+      if (scroll.querySelector('.gf-range-slider') || scroll.querySelector('select')) {
         return;
       }
 
-      if (block.dataset.scrollHintInit === 'true') {
-        return;
+      var items = scroll.querySelectorAll('.gf-option-box > li:not(.hidden-box)');
+      if (items.length > 5) {
+        scroll.classList.add('gf-block-scroll');
       }
 
-      block.dataset.scrollHintInit = 'true';
+      var wrap = scroll.parentElement;
+      if (!wrap || !wrap.classList.contains('gf-scroll-wrap')) {
+        wrap = document.createElement('div');
+        wrap.className = 'gf-scroll-wrap';
+        scroll.parentNode.insertBefore(wrap, scroll);
+        wrap.appendChild(scroll);
+      }
 
-      var fade = block.querySelector('.gf-scroll-fade');
-
+      var fade = wrap.querySelector('.gf-scroll-fade');
       if (!fade) {
         fade = document.createElement('div');
         fade.className = 'gf-scroll-fade';
         fade.setAttribute('aria-hidden', 'true');
-        block.appendChild(fade);
+        wrap.appendChild(fade);
       }
 
-      function updateFade() {
-        var hasMore = scroll.scrollHeight - scroll.clientHeight - scroll.scrollTop > 4;
-        fade.classList.toggle('is-visible', hasMore);
-      }
+      bindGloboScrollFade(scroll, fade);
+    });
+  }
 
-      scroll.addEventListener('scroll', updateFade, { passive: true });
-      window.addEventListener('resize', updateFade);
+  function observeGloboFilterTree() {
+    var tree = document.getElementById('gf-tree');
+    if (!tree || tree.dataset.scrollObserverInit === 'true') return;
 
-      var title = block.closest('.gf-option-block')?.querySelector('.gf-block-title');
+    tree.dataset.scrollObserverInit = 'true';
 
-      if (title) {
-        title.addEventListener('click', function () {
-          window.setTimeout(updateFade, 150);
-        });
-      }
+    var debounceTimer;
+    var observer = new MutationObserver(function () {
+      window.clearTimeout(debounceTimer);
+      debounceTimer = window.setTimeout(initGloboFilterScrollHints, 80);
+    });
 
-      updateFade();
+    observer.observe(tree, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ['class', 'style']
     });
   }
 
   document.addEventListener('click', function (event) {
-    if (event.target.closest('.gf-refine-toggle-mobile, .gf-filter-trigger, .gf-filter-heading')) {
-      window.setTimeout(initGloboFilterScrollHints, 300);
+    if (
+      event.target.closest('.gf-refine-toggle-mobile, .gf-filter-trigger, .gf-block-title, .gf-filter-heading')
+    ) {
+      window.setTimeout(initGloboFilterScrollHints, 200);
+      window.setTimeout(initGloboFilterScrollHints, 500);
     }
   });
 
   window.addEventListener('globoFilterRenderCompleted', function () {
     refreshNewFlairBadges();
     initGloboFilterScrollHints();
+    observeGloboFilterTree();
   });
 
   function initObserver(grid) {
@@ -243,14 +282,16 @@
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () {
-      initObservers();
-      initGloboFilterScrollHints();
-    });
-  } else {
+  function initPage() {
     initObservers();
     initGloboFilterScrollHints();
+    observeGloboFilterTree();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPage);
+  } else {
+    initPage();
   }
 })();
 </script>
