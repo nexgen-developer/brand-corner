@@ -153,8 +153,58 @@
 
   window.refreshFlairCollectionBadges = refreshNewFlairBadges;
 
+  function initGloboFilterScrollHints() {
+    document.querySelectorAll('.gf-option-block .gf-block-content').forEach(function (block) {
+      var scroll = block.querySelector('.gf-scroll');
+
+      if (!scroll || scroll.querySelector('.gf-range-slider') || scroll.querySelector('select')) {
+        return;
+      }
+
+      if (block.dataset.scrollHintInit === 'true') {
+        return;
+      }
+
+      block.dataset.scrollHintInit = 'true';
+
+      var fade = block.querySelector('.gf-scroll-fade');
+
+      if (!fade) {
+        fade = document.createElement('div');
+        fade.className = 'gf-scroll-fade';
+        fade.setAttribute('aria-hidden', 'true');
+        block.appendChild(fade);
+      }
+
+      function updateFade() {
+        var hasMore = scroll.scrollHeight - scroll.clientHeight - scroll.scrollTop > 4;
+        fade.classList.toggle('is-visible', hasMore);
+      }
+
+      scroll.addEventListener('scroll', updateFade, { passive: true });
+      window.addEventListener('resize', updateFade);
+
+      var title = block.closest('.gf-option-block')?.querySelector('.gf-block-title');
+
+      if (title) {
+        title.addEventListener('click', function () {
+          window.setTimeout(updateFade, 150);
+        });
+      }
+
+      updateFade();
+    });
+  }
+
+  document.addEventListener('click', function (event) {
+    if (event.target.closest('.gf-refine-toggle-mobile, .gf-filter-trigger, .gf-filter-heading')) {
+      window.setTimeout(initGloboFilterScrollHints, 300);
+    }
+  });
+
   window.addEventListener('globoFilterRenderCompleted', function () {
     refreshNewFlairBadges();
+    initGloboFilterScrollHints();
   });
 
   function initObserver(grid) {
@@ -194,9 +244,13 @@
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initObservers);
+    document.addEventListener('DOMContentLoaded', function () {
+      initObservers();
+      initGloboFilterScrollHints();
+    });
   } else {
     initObservers();
+    initGloboFilterScrollHints();
   }
 })();
 </script>
