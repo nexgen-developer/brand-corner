@@ -878,8 +878,13 @@ const collections = {
       fetch(fetchUrl).then((response) => response.text()).then((responseText) => {
         let html = document.createElement("div");
         html.innerHTML = responseText;
-        let htmlCleaned = html.querySelector("#js\\:results").innerHTML;
-        document.getElementById("js:results").insertAdjacentHTML("beforeend", htmlCleaned);
+        let resultsContainer = document.getElementById("js:results") || document.getElementById("gf-products");
+        let resultsSection = html.querySelector("#js\\:results") || html.querySelector("#gf-products");
+        if (!resultsContainer || !resultsSection) return;
+        resultsContainer.insertAdjacentHTML("beforeend", resultsSection.innerHTML);
+        if (typeof window.refreshFlairCollectionBadges === "function") {
+          window.refreshFlairCollectionBadges(resultsContainer);
+        }
         setTimeout(() => {
           this.collection_loading = false;
         }, 100);
