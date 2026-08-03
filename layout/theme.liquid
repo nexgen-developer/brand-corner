@@ -58,9 +58,8 @@
 <style>
 .flair-badge-layout{text-align:center;}
   #gf-products .group {padding-bottom:15px;}
-/* Hide plain buttons on Globo cards only — keep them visible in quick-add popup */
-#gf-products .btn.btn--plain{display:none!important}
-#gf-products [id^="js:quickAdd"] .btn.btn--plain{display:inline-flex!important}
+/* Hide plain buttons on Globo cards only — exclude quick-add so Alpine x-show still works */
+#gf-products .group > :not([id^="js:quickAdd"]) .btn.btn--plain{display:none!important}
 
 </style>
 </head>
