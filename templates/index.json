@@ -86,6 +86,21 @@
     },
     "liquid_7wdTYL": {
       "type": "liquid",
+      "disabled": true,
+      "name": "28th August - Bank Holiday",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_085f5187-f067-4107-b1d6-883db717896c.jpg?v=1787581350\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile-1.gif?v=1787581350\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_GedTdV": {
+      "type": "liquid",
       "name": "14th August -Summer Sale Ends Soon",
       "settings": {
         "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_3472748b-ad40-4f4b-b4b3-d118c41c388d.jpg?v=1786106035\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_77492cb0-ee2e-499b-9645-8be1b97babe9.gif?v=1786106036\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
@@ -810,6 +825,7 @@
     "slideshow_dUjbh4",
     "liquid_AKTULJ",
     "liquid_7wdTYL",
+    "liquid_GedTdV",
     "liquid_GFn7ky",
     "liquid_i7bQrP",
     "liquid_AADeLX",
