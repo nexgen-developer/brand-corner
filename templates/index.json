@@ -86,6 +86,21 @@
     },
     "liquid_7wdTYL": {
       "type": "liquid",
+      "disabled": true,
+      "name": "4th August - Final Chance",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BC-SS-DESKTOP.jpg?v=1787934354\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BC-MAIL-1.gif?v=1787934357\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
+    "liquid_MxncVk": {
+      "type": "liquid",
       "name": "28th August - Bank Holiday",
       "settings": {
         "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_085f5187-f067-4107-b1d6-883db717896c.jpg?v=1787581350\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile-1.gif?v=1787581350\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
@@ -310,161 +325,6 @@
         "color_border": "color__border-divider-1",
         "style_border": "",
         "layout_padding": true,
-        "visibility": ""
-      }
-    },
-    "logo_list_mqVrDb": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_PLM39B": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Juice.png",
-            "logo_height": "max-h-[32px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_6erjEV": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Crosshatch.png",
-            "logo_height": "max-h-[32px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_8gyMVE": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Dunlop.png",
-            "logo_height": "max-h-[64px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_6EDz6i": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/FCUK.png",
-            "logo_height": "max-h-[32px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_ttP4nV": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/DAC_00ceeac5-fc0f-4560-b8bd-0690da8f6842.png",
-            "logo_height": "max-h-[64px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_eBAx9b": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Archive.png",
-            "logo_height": "max-h-[64px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_AwDqin": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Born_Rich.png",
-            "logo_height": "max-h-[32px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_KfAwLm": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Lookus.png",
-            "logo_height": "max-h-[64px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_pb9MXG": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Loyalty_and_Faith.png",
-            "logo_height": "max-h-[64px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        },
-        "logo_giNnLM": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Henleys_Logo_black.psd-9.png",
-            "logo_height": "max-h-[32px]",
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md:col-span-1"
-          }
-        }
-      },
-      "block_order": [
-        "logo_PLM39B",
-        "logo_6erjEV",
-        "logo_8gyMVE",
-        "logo_6EDz6i",
-        "logo_ttP4nV",
-        "logo_eBAx9b",
-        "logo_AwDqin",
-        "logo_KfAwLm",
-        "logo_pb9MXG",
-        "logo_giNnLM"
-      ],
-      "settings": {
-        "heading": "",
-        "content": "",
-        "button_label": "",
-        "button_url": "/",
-        "enablescorll": true,
-        "speed": 20,
-        "spacing_top": 0,
-        "spacing_bottom": 20,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "",
-        "row_size_desktop": "16.5",
-        "row_size_mobile": "25",
-        "layout_x_alignment": "justify-between",
         "visibility": ""
       }
     },
@@ -750,6 +610,161 @@
         "visibility": ""
       }
     },
+    "logo_list_mqVrDb": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_PLM39B": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Juice.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_6erjEV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Crosshatch.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_8gyMVE": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Dunlop.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_6EDz6i": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/FCUK.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_ttP4nV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/DAC_00ceeac5-fc0f-4560-b8bd-0690da8f6842.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_eBAx9b": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Archive.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_AwDqin": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Born_Rich.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_KfAwLm": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Lookus.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_pb9MXG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Loyalty_and_Faith.png",
+            "logo_height": "max-h-[64px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        },
+        "logo_giNnLM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Henleys_Logo_black.psd-9.png",
+            "logo_height": "max-h-[32px]",
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "logo_PLM39B",
+        "logo_6erjEV",
+        "logo_8gyMVE",
+        "logo_6EDz6i",
+        "logo_ttP4nV",
+        "logo_eBAx9b",
+        "logo_AwDqin",
+        "logo_KfAwLm",
+        "logo_pb9MXG",
+        "logo_giNnLM"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/",
+        "enablescorll": true,
+        "speed": 20,
+        "spacing_top": 0,
+        "spacing_bottom": 20,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "row_size_desktop": "16.5",
+        "row_size_mobile": "25",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "content_grid_7KdV4K": {
       "type": "content-grid",
       "blocks": {
@@ -853,6 +868,7 @@
     "slideshow_dUjbh4",
     "liquid_AKTULJ",
     "liquid_7wdTYL",
+    "liquid_MxncVk",
     "liquid_GedTdV",
     "liquid_GFn7ky",
     "liquid_i7bQrP",
