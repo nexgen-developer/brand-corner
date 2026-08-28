@@ -37,7 +37,7 @@
     "header_position": "dynamic",
     "layout_alignment": "",
     "layout_horizontal": "window--full",
-    "layout_gap_size": 3,
+    "layout_gap_size": 20,
     "enable_audio": false,
     "enable_animations": false,
     "favicon": "shopify://shop_images/BC-SS24-Website-GREY-ICON-LOGO.png",
@@ -326,8 +326,6 @@
           "customTreeTemplateLoader": "{%- capture treeTemplate -%}{% render 'globo.filter.tree' %}{%- endcapture -%}{%- unless treeTemplate contains 'Liquid error' -%}<script id=\"gspfFilterTree\" type=\"template/html\">{{- treeTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
           "customSortTemplateLoader": "{%- capture sortTemplate -%}{% render 'globo.filter.sort' %}{%- endcapture -%}{%- unless sortTemplate contains 'Liquid error' -%}<script id=\"gspfFilterSort\" type=\"template/html\">{{- sortTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
           "customSearchTemplateLoader": "{%- capture searchTemplate -%}{% render 'globo.filter.search' %}{%- endcapture -%}{%- unless searchTemplate contains 'Liquid error' -%}<script id=\"gspfSearchResult\" type=\"template/html\">{{- searchTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
-          "customPaginationTemplateLoader": "{%- capture paginationTemplate -%}{% render 'globo.filter.pagination' %}{%- endcapture -%}{%- unless paginationTemplate contains 'Liquid error' -%}<script id=\"gspfPagination\" type=\"template/html\">{{- paginationTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
-          "customYMMTemplateLoader": "{%- capture YMMTemplate -%}{% render 'globo.filter.form' %}{%- endcapture -%}{%- unless YMMTemplate contains 'Liquid error' -%}<script id=\"gspfForm\" type=\"template/html\">{{- YMMTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
           "themeInfo": "{{theme.id}}"
         }
       },
