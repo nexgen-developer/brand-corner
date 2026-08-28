@@ -218,139 +218,6 @@
         "visibility": ""
       }
     },
-    "content_grid_PdfVwt": {
-      "type": "content-grid",
-      "blocks": {
-        "content_XXhcdi": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/mens",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_d29e6cb1-d506-4a7f-87c0-1bf08cfaa312.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-2",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
-        "content_cz9hdr": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/mens",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_d29e6cb1-d506-4a7f-87c0-1bf08cfaa312.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-2",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
-        "content_nCAFNJ": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/ladies",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Womens_10f4e6ac-f8f9-4dc7-83c9-ff23339ef602.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn btn--plain",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-2",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
-        "content_8HNELD": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/kids",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Kids.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": false,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn btn--secondary",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        }
-      },
-      "block_order": [
-        "content_XXhcdi",
-        "content_cz9hdr",
-        "content_nCAFNJ",
-        "content_8HNELD"
-      ],
-      "name": "Quick Links",
-      "settings": {
-        "heading": "",
-        "content": "",
-        "button_label": "",
-        "button_url": "/",
-        "spacing_top": 0,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
-        "style_border": "",
-        "row_size_desktop": "md:grid-cols-3",
-        "row_size_mobile": "grid-cols-3",
-        "layout_x_alignment": "justify-between",
-        "visibility": ""
-      }
-    },
     "content_grid_7YrUrR": {
       "type": "content-grid",
       "blocks": {
@@ -664,6 +531,139 @@
         "padding_bottom": 15
       }
     },
+    "content_grid_PdfVwt": {
+      "type": "content-grid",
+      "blocks": {
+        "content_XXhcdi": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/mens",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_d29e6cb1-d506-4a7f-87c0-1bf08cfaa312.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_cz9hdr": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/mens",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_d29e6cb1-d506-4a7f-87c0-1bf08cfaa312.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_nCAFNJ": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/ladies",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Womens_10f4e6ac-f8f9-4dc7-83c9-ff23339ef602.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn btn--plain",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_8HNELD": {
+          "type": "content",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/kids",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Kids.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": false,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn btn--secondary",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-1",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        }
+      },
+      "block_order": [
+        "content_XXhcdi",
+        "content_cz9hdr",
+        "content_nCAFNJ",
+        "content_8HNELD"
+      ],
+      "name": "Quick Links",
+      "settings": {
+        "heading": "",
+        "content": "",
+        "button_label": "",
+        "button_url": "/",
+        "spacing_top": 0,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "color_button": "btn btn--secondary",
+        "style_border": "",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-3",
+        "layout_x_alignment": "justify-between",
+        "visibility": ""
+      }
+    },
     "banner_zHLe4e": {
       "type": "banner",
       "disabled": true,
@@ -861,15 +861,15 @@
     "liquid_cwQQ8d",
     "liquid_DEfUw3",
     "liquid_Nky638",
-    "content_grid_PdfVwt",
     "content_grid_7YrUrR",
     "liquid_LHXpPw",
-    "logo_list_mqVrDb",
     "product_slider_DiqEL6",
     "banner_BR8gUK",
+    "content_grid_PdfVwt",
     "banner_zHLe4e",
     "d705fd03-9bfa-4d1b-bf61-992143f2ac80",
     "newsletter_NX4fHp",
+    "logo_list_mqVrDb",
     "content_grid_7KdV4K",
     "text_QxcT3f"
   ]
