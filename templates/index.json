@@ -9,72 +9,11 @@
  */
 {
   "sections": {
-    "slideshow_dUjbh4": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_wVe9ck": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_background_desktop": "shopify://shop_images/13-12-24-perfect-for-gifting-bc-desktop.jpg",
-            "image_background_mobile": "shopify://shop_images/13-12-24-perfect-for-gifting-bc-mob.jpg",
-            "show_entire_image": true,
-            "enable_lazy_loading": false,
-            "show_video_background_mobile": false,
-            "heading": "",
-            "content": "",
-            "button_color": "btn",
-            "button_label": "",
-            "button_url": "shopify://collections/new-in",
-            "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "",
-            "secondary_button_url": "shopify://collections/new-in"
-          }
-        },
-        "slide_BazdwT": {
-          "type": "slide",
-          "settings": {
-            "image_background_desktop": "shopify://shop_images/BC-PRE-BF-W4-DESKTOP.jpg",
-            "image_background_mobile": "shopify://shop_images/BC-PRE-BF-W4-MOBILE.jpg",
-            "show_entire_image": true,
-            "enable_lazy_loading": false,
-            "show_video_background_mobile": true,
-            "heading": "",
-            "content": "",
-            "button_color": "btn",
-            "button_label": "",
-            "button_url": "shopify://collections/new-in",
-            "secondary_button_color": "btn btn--neutral",
-            "secondary_button_label": "",
-            "secondary_button_url": "shopify://collections/all"
-          }
-        }
-      },
-      "block_order": [
-        "slide_wVe9ck",
-        "slide_BazdwT"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "color__bg-tertiary color__tertiary",
-        "color_text": "",
-        "color_border": "color__border-divider-1",
-        "enable_gradient": false,
-        "style_border": "",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
-        "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-start",
-        "visibility": "",
-        "auto_scroll": true,
-        "auto_scroll_delay": 5
-      }
-    },
     "liquid_AKTULJ": {
       "type": "liquid",
-      "disabled": true,
-      "name": "Base",
+      "name": "AW26 20% Off",
       "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_52488e45-073a-40be-868b-77b9fa9b045d.jpg?v=1775550572\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile.jpg?v=1775550572\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_7dbdcaec-8028-4457-9221-d868f45346e0.jpg?v=1788427422\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_4625d17a-7eb7-40c8-b010-ffe564190099.jpg?v=1788427423\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
         "spacing_top": 20,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
@@ -99,153 +38,46 @@
         "visibility": ""
       }
     },
-    "liquid_MxncVk": {
-      "type": "liquid",
-      "name": "28th August - Bank Holiday",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_085f5187-f067-4107-b1d6-883db717896c.jpg?v=1787581350\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile-1.gif?v=1787581350\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_GedTdV": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "14th August -Summer Sale Ends Soon",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_3472748b-ad40-4f4b-b4b3-d118c41c388d.jpg?v=1786106035\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_77492cb0-ee2e-499b-9645-8be1b97babe9.gif?v=1786106036\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_GFn7ky": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "31st July - Pay Day x Summer Sale",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_9fbef755-c569-403b-a041-1fb2434d148d.jpg?v=1784727112\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Scroller-Mobile_f0421af2-4ba8-42b7-846a-68a551e8f179.gif?v=1784795484\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_i7bQrP": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "17th July - Summer Sale",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop.gif?v=1783498214\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile.gif?v=1783498214\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_AADeLX": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "3rd July - Summer Stars Here",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_6c87ea81-6963-488c-a380-312fbed7aef4.jpg?v=1781877086\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_3fafea92-58b2-4797-9b60-aaca4ccf5ca2.jpg?v=1781877086\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_U48kFf": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "22nd June - Pay Day",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Brandcorner_-_Desktop_8e3bb867-91c6-4583-881a-b8651b7fff91.jpg?v=1781592377\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Brandcorner_-_Mobile_13ef1f1d-8cfc-4028-9064-ffb4c409dc8f.jpg?v=1781592378\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_cwQQ8d": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "19th June - Father's Day",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_3450a975-8536-45a4-bdbe-61bdfb339811.jpg?v=1780477454\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_9dc36e4d-f74b-4e48-b967-f8f378e4a471.jpg?v=1780477454\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_DEfUw3": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "12th June - Gift Guide",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_25e496f2-a6ea-4300-8010-f171b9d4d8b8.jpg?v=1780401417\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_df3cf3d1-8a82-4cdc-bb26-86e322e36583.jpg?v=1780401418\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/fathers-day-gift-guide\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
-    "liquid_Nky638": {
-      "type": "liquid",
-      "disabled": true,
-      "name": "5th June - Summer",
-      "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Desktop_5992b09c-5ed4-43b1-acee-4d3adb08a2fc.jpg?v=1779454727\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Mobile_8c2cedb2-2484-4517-b229-8ed89411e168.jpg?v=1779454728\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 20,
-        "spacing_bottom": 0,
-        "color_scheme": "color__bg-body color__text",
-        "color_border": "color__border-divider-1",
-        "style_border": "",
-        "layout_padding": false,
-        "visibility": ""
-      }
-    },
     "content_grid_7YrUrR": {
       "type": "content-grid",
       "blocks": {
         "content_TRqedm": {
           "type": "content",
-          "name": "Mystery Box",
+          "name": "Mens",
           "settings": {
             "heading": "",
             "content": "",
             "button_label": "",
-            "button_url": "shopify://collections/5-mystery-box",
+            "button_url": "shopify://collections/mens",
             "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINK_-_Mystery_Box_dc522e3f-ae17-4c01-8be2-620f053ebec5.jpg",
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_e895c176-5b9b-495c-a722-8378d7f7f68e.jpg",
+            "enable_autoplay": true,
+            "enable_mute_toggle": true,
+            "enable_loop": true,
+            "spacing_top": 0,
+            "spacing_bottom": 0,
+            "enable_padding": true,
+            "color_scheme": "color__bg-body color__text",
+            "color_border": "!color__border-transparent",
+            "color_text": "color__text",
+            "color_button": "btn",
+            "enable_gradient": false,
+            "layout_y_alignment": "items-end content-end",
+            "layout_x_alignment": "",
+            "layout_row_span": "row-span-2",
+            "layout_col_span": "col-span-1 md: md:col-span-1"
+          }
+        },
+        "content_xBEVjD": {
+          "type": "content",
+          "name": "Womens",
+          "settings": {
+            "heading": "",
+            "content": "",
+            "button_label": "",
+            "button_url": "shopify://collections/ladies",
+            "full_block_link": true,
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Womens_72017e4c-2c88-47b1-9014-2118b3aac0dc.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -265,14 +97,14 @@
         },
         "content_wK6gzT": {
           "type": "content",
-          "name": "End Of Line Sale",
+          "name": "Kida",
           "settings": {
             "heading": "",
             "content": "",
             "button_label": "",
-            "button_url": "shopify://collections/end-of-line",
+            "button_url": "shopify://collections/kids",
             "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_End_of_Line_Sale_e9beae8f-196e-4700-9879-f8cad941d0fe.jpg",
+            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Kids_8408e8b1-6a79-4984-951e-a197df7d8378.jpg",
             "enable_autoplay": true,
             "enable_mute_toggle": true,
             "enable_loop": true,
@@ -293,7 +125,13 @@
       },
       "block_order": [
         "content_TRqedm",
+        "content_xBEVjD",
         "content_wK6gzT"
+      ],
+      "custom_css": [
+        "{padding-top: 55px !important; padding-bottom: 45px !important;}",
+        "img {width: 50% !important; height: auto !important; display: block !important; margin-left: auto !important; margin-right: auto !important;}",
+        "@media screen and (max-width: 749px) {{padding-top: 10px !important; padding-bottom: 0px !important; } img {width: 100% !important; height: auto !important; }}"
       ],
       "name": "Quick Links",
       "settings": {
@@ -307,24 +145,23 @@
         "color_border": "color__border-divider-1",
         "color_button": "btn btn--secondary",
         "style_border": "",
-        "row_size_desktop": "md:grid-cols-2",
-        "row_size_mobile": "grid-cols-1",
+        "row_size_desktop": "md:grid-cols-3",
+        "row_size_mobile": "grid-cols-3",
         "layout_x_alignment": "text-center justify-center flex-col items-center",
         "visibility": ""
       }
     },
-    "liquid_LHXpPw": {
+    "liquid_wwajgj": {
       "type": "liquid",
-      "disabled": true,
       "name": "New In",
       "settings": {
-        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Desktop_New_In_3b392a07-f6a6-477c-805c-4cd830a05c0f.jpg?v=1767618180\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Mobile_New_In_70c02149-f322-497e-9b60-f846dff9d19f.jpg?v=1767617908\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
-        "spacing_top": 0,
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Desktop_New_In_3ccdfacd-5fc9-4d6e-aba0-47f3ee25d352.jpg?v=1788350624\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Mobile_New_In_7e09a2f2-c762-4dcf-b47b-7e98d4bc9f13.jpg?v=1788351698\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
         "style_border": "",
-        "layout_padding": true,
+        "layout_padding": false,
         "visibility": ""
       }
     },
@@ -346,7 +183,9 @@
         "card_CmDUe8"
       ],
       "custom_css": [
-        "h3 {font-size: 1.175rem;}"
+        "h3 {font-size: 1.175rem;}",
+        " {padding-top: 150px !important; padding-bottom: 100px !important;}",
+        "@media screen and (max-width: 749px) {{padding-top: 70px !important; padding-bottom: 30px !important; }}"
       ],
       "name": "Collection",
       "settings": {
@@ -366,184 +205,32 @@
         "visibility": ""
       }
     },
-    "banner_BR8gUK": {
-      "type": "banner",
-      "disabled": true,
-      "custom_css": [
-        ".object-cover {-o-object-fit: cover; object-fit: contain;}"
-      ],
+    "liquid_LHXpPw": {
+      "type": "liquid",
+      "name": "Mystery Box",
       "settings": {
-        "url": "shopify://collections/end-of-line",
-        "image_background_desktop": "shopify://shop_images/BC-SS24-Website-_Recovered_-end-of-line-desktop_1707006c-1787-4efd-8067-1b43a3d08ecd.jpg",
-        "image_background_mobile": "shopify://shop_images/BC-SS24-Website-_Recovered_-end-of-line-mob_43c92f61-a107-45b6-b76d-bc9c7220645c.jpg",
-        "show_entire_image": true,
-        "show_video_background_mobile": true,
-        "color_scheme": "color__bg-body color__text",
-        "color_text": "",
-        "color_border": "color__border-divider-1",
-        "enable_gradient": false,
-        "style_border": "",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
-        "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-start",
-        "visibility": "",
-        "padding_top": 0,
-        "padding_bottom": 15
-      }
-    },
-    "content_grid_PdfVwt": {
-      "type": "content-grid",
-      "blocks": {
-        "content_XXhcdi": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/mens",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_d29e6cb1-d506-4a7f-87c0-1bf08cfaa312.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-2",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
-        "content_cz9hdr": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/mens",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Mens_d29e6cb1-d506-4a7f-87c0-1bf08cfaa312.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-2",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
-        "content_nCAFNJ": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/ladies",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Womens_10f4e6ac-f8f9-4dc7-83c9-ff23339ef602.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": true,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn btn--plain",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-2",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        },
-        "content_8HNELD": {
-          "type": "content",
-          "settings": {
-            "heading": "",
-            "content": "",
-            "button_label": "",
-            "button_url": "shopify://collections/kids",
-            "full_block_link": true,
-            "image_featured": "shopify://shop_images/QUICK_LINKS_-_Kids.jpg",
-            "enable_autoplay": true,
-            "enable_mute_toggle": true,
-            "enable_loop": true,
-            "spacing_top": 0,
-            "spacing_bottom": 0,
-            "enable_padding": false,
-            "color_scheme": "color__bg-body color__text",
-            "color_border": "!color__border-transparent",
-            "color_text": "color__text",
-            "color_button": "btn btn--secondary",
-            "enable_gradient": false,
-            "layout_y_alignment": "items-end content-end",
-            "layout_x_alignment": "",
-            "layout_row_span": "row-span-1",
-            "layout_col_span": "col-span-1 md: md:col-span-1"
-          }
-        }
-      },
-      "block_order": [
-        "content_XXhcdi",
-        "content_cz9hdr",
-        "content_nCAFNJ",
-        "content_8HNELD"
-      ],
-      "name": "Quick Links",
-      "settings": {
-        "heading": "",
-        "content": "",
-        "button_label": "",
-        "button_url": "/",
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Desktop_Mystery_Box_89a0a9ff-a755-40a9-9aa9-3e1da5b00c3c.jpg?v=1788441533\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Mobile_Mystery_Box_0b3fd28e-a769-4b0d-93c2-48be2489a395.jpg?v=1788441533\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/5-mystery-box\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
         "spacing_top": 0,
         "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
         "color_border": "color__border-divider-1",
-        "color_button": "btn btn--secondary",
         "style_border": "",
-        "row_size_desktop": "md:grid-cols-3",
-        "row_size_mobile": "grid-cols-3",
-        "layout_x_alignment": "justify-between",
+        "layout_padding": true,
         "visibility": ""
       }
     },
-    "banner_zHLe4e": {
-      "type": "banner",
-      "disabled": true,
+    "liquid_t7rCzx": {
+      "type": "liquid",
+      "name": "End Of Line",
       "settings": {
-        "url": "shopify://collections/5-and-under",
-        "image_background_desktop": "shopify://shop_images/BC-SS24-Website-_Recovered_-5-and-under-desktop_5928b94f-681d-43bb-8efd-750d69953a17.jpg",
-        "image_background_mobile": "shopify://shop_images/BC-SS24-Website-_Recovered_-5-and-under-mob_798567af-4cbe-4fe8-a3c1-e88b7acf669d.jpg",
-        "show_entire_image": true,
-        "show_video_background_mobile": true,
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Desktop_End_Of_Line.jpg?v=1788268186\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/BANNER_-_Mobile_End_Of_Line_eecd696e-920c-4e31-b95f-77c5c977ed23.jpg?v=1788268451\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/end-of-line\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
         "color_scheme": "color__bg-body color__text",
-        "color_text": "",
         "color_border": "color__border-divider-1",
-        "enable_gradient": false,
         "style_border": "",
-        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
-        "layout_y_alignment": "items-end",
-        "layout_x_alignment": "justify-start",
-        "visibility": "",
-        "padding_top": 0,
-        "padding_bottom": 22
+        "layout_padding": true,
+        "visibility": ""
       }
     },
     "d705fd03-9bfa-4d1b-bf61-992143f2ac80": {
@@ -598,6 +285,10 @@
       },
       "block_order": [
         "newsletter_MWEfAd"
+      ],
+      "custom_css": [
+        "{padding-top: 300px !important; padding-bottom: 150px !important;}",
+        "@media screen and (max-width: 749px) {{padding-top: 175px !important; padding-bottom: 125px !important; }}"
       ],
       "settings": {
         "spacing_top": 0,
@@ -746,6 +437,10 @@
         "logo_pb9MXG",
         "logo_giNnLM"
       ],
+      "custom_css": [
+        "{padding-top: 100px !important; padding-bottom: 50px !important;}",
+        "@media screen and (max-width: 749px) {{padding-top: 0px !important; padding-bottom: 0px !important; }}"
+      ],
       "settings": {
         "heading": "",
         "content": "",
@@ -825,6 +520,7 @@
         "content_gRmw8h",
         "content_XGEdVm"
       ],
+      "disabled": true,
       "name": "Quick Links",
       "settings": {
         "heading": "",
@@ -845,6 +541,7 @@
     },
     "text_QxcT3f": {
       "type": "text",
+      "disabled": true,
       "custom_css": [
         ".html {font-size: 0.5rem;}"
       ],
@@ -862,31 +559,81 @@
         "layout_x_alignment": "text-center justify-center",
         "visibility": ""
       }
+    },
+    "slideshow_dUjbh4": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_wVe9ck": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image_background_desktop": "shopify://shop_images/13-12-24-perfect-for-gifting-bc-desktop.jpg",
+            "image_background_mobile": "shopify://shop_images/13-12-24-perfect-for-gifting-bc-mob.jpg",
+            "show_entire_image": true,
+            "enable_lazy_loading": false,
+            "show_video_background_mobile": false,
+            "heading": "",
+            "content": "",
+            "button_color": "btn",
+            "button_label": "",
+            "button_url": "shopify://collections/new-in",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "",
+            "secondary_button_url": "shopify://collections/new-in"
+          }
+        },
+        "slide_BazdwT": {
+          "type": "slide",
+          "settings": {
+            "image_background_desktop": "shopify://shop_images/BC-PRE-BF-W4-DESKTOP.jpg",
+            "image_background_mobile": "shopify://shop_images/BC-PRE-BF-W4-MOBILE.jpg",
+            "show_entire_image": true,
+            "enable_lazy_loading": false,
+            "show_video_background_mobile": true,
+            "heading": "",
+            "content": "",
+            "button_color": "btn",
+            "button_label": "",
+            "button_url": "shopify://collections/new-in",
+            "secondary_button_color": "btn btn--neutral",
+            "secondary_button_label": "",
+            "secondary_button_url": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "slide_wVe9ck",
+        "slide_BazdwT"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color__bg-tertiary color__tertiary",
+        "color_text": "",
+        "color_border": "color__border-divider-1",
+        "enable_gradient": false,
+        "style_border": "",
+        "layout_y_spacing": "min-h-[450px] md:min-h-[550px]",
+        "layout_y_alignment": "items-end",
+        "layout_x_alignment": "justify-start",
+        "visibility": "",
+        "auto_scroll": true,
+        "auto_scroll_delay": 5
+      }
     }
   },
   "order": [
-    "slideshow_dUjbh4",
     "liquid_AKTULJ",
     "liquid_7wdTYL",
-    "liquid_MxncVk",
-    "liquid_GedTdV",
-    "liquid_GFn7ky",
-    "liquid_i7bQrP",
-    "liquid_AADeLX",
-    "liquid_U48kFf",
-    "liquid_cwQQ8d",
-    "liquid_DEfUw3",
-    "liquid_Nky638",
     "content_grid_7YrUrR",
-    "liquid_LHXpPw",
+    "liquid_wwajgj",
     "product_slider_DiqEL6",
-    "banner_BR8gUK",
-    "content_grid_PdfVwt",
-    "banner_zHLe4e",
+    "liquid_LHXpPw",
+    "liquid_t7rCzx",
     "d705fd03-9bfa-4d1b-bf61-992143f2ac80",
     "newsletter_NX4fHp",
     "logo_list_mqVrDb",
     "content_grid_7KdV4K",
-    "text_QxcT3f"
+    "text_QxcT3f",
+    "slideshow_dUjbh4"
   ]
 }
