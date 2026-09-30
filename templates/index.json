@@ -98,6 +98,21 @@
         "visibility": ""
       }
     },
+    "liquid_eU34Wk": {
+      "type": "liquid",
+      "disabled": true,
+      "name": "23rd October - Hoodies",
+      "settings": {
+        "liquid": "{% assign desktop_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/SCROLLER_-_Desktop_e5955766-3a56-440b-9092-a0576764828d.jpg?v=1790754106\" %}\n{% assign mobile_image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Brand-Corner-Email_3526eea5-29b4-4789-b5cf-bc61c80f02a8.gif?v=1790754780\" %}\n\n<style>\n  /* Container to keep images responsive */\n  .image-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  .responsive-image {\n    width: 100%;\n    height: auto;\n    max-width: 100%;\n    display: block;\n  }\n  \n  /* Show/hide images based on screen size */\n  .desktop-image {\n    display: block;\n  }\n  \n  .mobile-image {\n    display: none;\n  }\n\n  @media (max-width: 768px) {\n    .desktop-image {\n      display: none;\n    }\n    .mobile-image {\n      display: block;\n    }\n  }\n</style>\n\n<div class=\"image-container\">\n  <a href=\"https://www.brandcorner.com/collections/new-in?gf_127611=Hoodies\">\n    <img src=\"{{ desktop_image_url }}\" alt=\"Desktop Image\" class=\"desktop-image responsive-image\" />\n    <img src=\"{{ mobile_image_url }}\" alt=\"Mobile Image\" class=\"mobile-image responsive-image\" />\n  </a>\n</div>",
+        "spacing_top": 20,
+        "spacing_bottom": 0,
+        "color_scheme": "color__bg-body color__text",
+        "color_border": "color__border-divider-1",
+        "style_border": "",
+        "layout_padding": false,
+        "visibility": ""
+      }
+    },
     "content_grid_7YrUrR": {
       "type": "content-grid",
       "blocks": {
@@ -704,6 +719,7 @@
     "liquid_AKTULJ",
     "liquid_ddLh9m",
     "liquid_gYgUKJ",
+    "liquid_eU34Wk",
     "content_grid_7YrUrR",
     "liquid_wwajgj",
     "product_slider_DiqEL6",
