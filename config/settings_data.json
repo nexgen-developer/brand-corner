@@ -209,7 +209,7 @@
           "show_continue_shopping_button": false,
           "sidebar_color_scheme": "color__bg-body color__text",
           "sidebar_color_border": "color__border-divider-1",
-          "progress_bar_threshold": 50,
+          "progress_bar_threshold": 40,
           "progress_bar_success": "Congrats! You unlocked free shipping.",
           "progress_bar_enable": true,
           "main_cart_upgrade_product": "",
