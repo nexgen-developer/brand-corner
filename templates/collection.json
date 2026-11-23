@@ -28,7 +28,6 @@
     },
     "liquid_mD3aiE": {
       "type": "liquid",
-      "disabled": true,
       "name": "Black Friday",
       "settings": {
         "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Brand-Corner-_Desktop-Banner_5bc2344e-b7de-4cc8-9c4e-e9797a26a051.jpg?v=1795183465\" %}\n{% assign link_url = \"https://www.brandcorner.com/collections/new-in\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
@@ -43,7 +42,6 @@
     },
     "liquid_jxWByh": {
       "type": "liquid",
-      "disabled": true,
       "name": "Black Friday Mobile",
       "settings": {
         "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Brand-Corner-Mobile-Banner_8c96f488-2e15-4eeb-ab8f-946539ed43e8.jpg?v=1795183465\" %}\n{% assign link_url = \"https://www.brandcorner.com/collections/new-in\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
@@ -58,6 +56,7 @@
     },
     "liquid_CTrqCa": {
       "type": "liquid",
+      "disabled": true,
       "name": "Black Friday Month Desktop",
       "settings": {
         "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Brand-Corner-_Desktop-Banner.jpg?v=1793966602\" %}\n{% assign link_url = \"https://www.brandcorner.com/collections/new-in\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
@@ -72,6 +71,7 @@
     },
     "liquid_QrPGVw": {
       "type": "liquid",
+      "disabled": true,
       "name": "Black Friday Month Mobile",
       "settings": {
         "liquid": "{% assign image_url = \"https://cdn.shopify.com/s/files/1/2006/2579/files/Brand-Corner-Mobile-Banner.jpg?v=1793970727\" %}\n{% assign link_url = \"https://www.brandcorner.com/collections/new-in\" %}\n\n<a href=\"{{ link_url }}\">\n  <img src=\"{{ image_url }}\" alt=\"Black Friday Banner\" />\n</a>",
