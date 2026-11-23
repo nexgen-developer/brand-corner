@@ -409,9 +409,9 @@
           "type": "newsletter",
           "settings": {
             "heading": "Sign Up Now",
-            "content": "<p>Subscriber Exclusive Sign Up For 25% Off</p>",
+            "content": "<p>Subscriber Exclusive Sign Up For 30% Off</p>",
             "button_label": "Subscribe",
-            "disclaimer": "<p>We'll use your information in accordance with our <a href=\"/pages/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a></p><p>*Terms & Conditions Apply</p>",
+            "disclaimer": "<p>We'll use your information in accordance with our&nbsp;<a href=\"/pages/privacy-policy\" title=\"Privacy Policy\"><strong>Privacy Notice</strong></a></p><p>*Terms & Conditions Apply</p>",
             "success": "<p>Success! You’ve Been Subscribed.</p>",
             "layout_desktop_width": 5,
             "layout_mobile_width": 12,
